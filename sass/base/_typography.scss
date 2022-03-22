@@ -1,0 +1,119 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 1.7;
+	color: $color-gray-dark-1;
+}
+
+@font-face {
+	font-family: 'futuraregular';
+	src: url('../fonts/futurao-webfont.woff2') format('woff2'),
+		url('../fonts/futurao-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'futura_originalregular';
+	src: url('../fonts/futurab-webfont.woff2') format('woff2'),
+		url('../fonts/futurab-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.heading-primary {
+	// font-family: 'futuraregular';
+
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	margin-bottom: 1rem;
+
+	background-image: linear-gradient(
+		to left bottom,
+		$color-secondary-light,
+		$color-secondary-dark
+	);
+	// -webkit-background-clip: text;
+	// background-clip: text;
+	// color: transparent;
+
+	color: $color-primary;
+
+	&--main {
+		display: block;
+		font-weight: 400;
+		font-size: 6rem;
+		letter-spacing: 3.5rem;
+		padding-left: 3.5rem;
+
+		animation-name: moveInLeft;
+		animation-duration: 0.8s;
+		animation-timing-function: ease-out;
+
+		@include respond(phone) {
+			font-size: 5rem;
+			letter-spacing: 1rem;
+		}
+	}
+
+	&--sub {
+		display: block;
+		font-weight: 700;
+		font-size: 2rem;
+		letter-spacing: 1.75rem;
+		padding-left: 1.75rem;
+		animation: moveInRight 1s ease-out;
+
+		@include respond(phone) {
+			letter-spacing: 0.5rem;
+		}
+	}
+}
+
+.heading-secondary {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-image: linear-gradient(
+		to right,
+		$color-primary-light,
+		$color-primary-dark
+	);
+	display: inline-block;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	letter-spacing: 2px;
+	transition: all 0.2s;
+
+	@include respond(tab-port) {
+		font-size: 3rem;
+	}
+
+	@include respond(phone) {
+		font-size: 2.5rem;
+	}
+
+	&:hover {
+		transform: scale(1.07);
+		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+	}
+}
+
+.heading-tertiary {
+	font-size: $default-font-size;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.paragraph {
+	font-size: $default-font-size;
+	&:not(:last-child) {
+		margin-bottom: 3rem;
+	}
+}

@@ -1,0 +1,47 @@
+.navigation {
+	align-self: flex-end;
+	padding: 1rem 3rem;
+
+	&__list {
+		list-style: none;
+		text-align: center;
+		display: flex;
+	}
+
+	&__item {
+		// margin: 1rem;
+	}
+
+	&__link {
+		&:link,
+		&:visited {
+			font-family: 'futura_originalregular';
+			display: inline-block;
+			font-size: 3rem;
+			font-weight: 300;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 1rem 2rem;
+
+			background-image: linear-gradient(
+				to left bottom,
+				$color-primary-light,
+				$color-primary-dark
+			);
+			-webkit-background-clip: text;
+			background-clip: text;
+			color: transparent;
+
+			// color: $color-secondary-light;
+
+			transition: all 0.4s;
+		}
+
+		&:hover,
+		&:active {
+			// color: $color-black;
+			color: $color-primary-light;
+			transform: translateY(0.5rem);
+		}
+	}
+}

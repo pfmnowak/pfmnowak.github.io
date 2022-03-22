@@ -1,0 +1,261 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+::selection {
+  background-color: #b30009;
+  color: #000; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777; }
+
+@font-face {
+  font-family: 'futuraregular';
+  src: url("../fonts/futurao-webfont.woff2") format("woff2"), url("../fonts/futurao-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'futura_originalregular';
+  src: url("../fonts/futurab-webfont.woff2") format("woff2"), url("../fonts/futurab-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.heading-primary {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(to left bottom, #1b1818, #0f090a);
+  color: #b30009; }
+  .heading-primary--main {
+    display: block;
+    font-weight: 400;
+    font-size: 6rem;
+    letter-spacing: 3.5rem;
+    padding-left: 3.5rem;
+    animation-name: moveInLeft;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out; }
+    @media only screen and (max-width: 37.5em) {
+      .heading-primary--main {
+        font-size: 5rem;
+        letter-spacing: 1rem; } }
+  .heading-primary--sub {
+    display: block;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 1.75rem;
+    padding-left: 1.75rem;
+    animation: moveInRight 1s ease-out; }
+    @media only screen and (max-width: 37.5em) {
+      .heading-primary--sub {
+        letter-spacing: 0.5rem; } }
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #fb000d, #3b0003);
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all 0.2s; }
+  @media only screen and (max-width: 56.25em) {
+    .heading-secondary {
+      font-size: 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .heading-secondary {
+      font-size: 2.5rem; } }
+  .heading-secondary:hover {
+    transform: scale(1.07);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+  @media only screen and (max-width: 56.25em) {
+    .u-margin-bottom-medium {
+      margin-bottom: 3rem !important; } }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+  @media only screen and (max-width: 56.25em) {
+    .u-margin-bottom-big {
+      margin-bottom: 5rem !important; } }
+
+.u-margin-top-big {
+  margin-top: 10rem !important; }
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn:focus, .btn:active {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn::after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s; }
+
+.btn--white {
+  background-color: #fff;
+  color: #777; }
+  .btn--white::after {
+    background-color: #fff; }
+
+.btn--green {
+  background-color: #b30009;
+  color: #fff; }
+  .btn--green::after {
+    background-color: #b30009; }
+
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.45s;
+  animation-fill-mode: backwards; }
+
+.btn-text:link, .btn-text:visited {
+  font-size: 1.6rem;
+  color: #b30009;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #b30009;
+  padding: 3px;
+  transition: all 0.2s; }
+
+.btn-text:hover {
+  background-color: #b30009;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0px); }
+
+.footer {
+  color: #f7f7f7;
+  background-color: #1b1818;
+  padding: 10rem 0;
+  font-size: 1.6rem; }
+  @media only screen and (max-width: 56.25em) {
+    .footer {
+      padding: 8rem 0; } }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  background-image: linear-gradient(to right top, rgba(27, 24, 24, 0.8), rgba(15, 9, 10, 0.8));
+  background-color: black; }
+  .header__neon {
+    color: #fff;
+    font-size: 1.6rem;
+    width: 40rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0.5rem #fb000d, 0 0 2.5rem #fb000d, 0 0 5rem #fb000d, 0 0 10rem #fb000d; }
+
+.navigation {
+  align-self: flex-end;
+  padding: 1rem 3rem; }
+  .navigation__list {
+    list-style: none;
+    text-align: center;
+    display: flex; }
+  .navigation__link:link, .navigation__link:visited {
+    font-family: 'futura_originalregular';
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    background-image: linear-gradient(to left bottom, #fb000d, #3b0003);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: all 0.4s; }
+  .navigation__link:hover, .navigation__link:active {
+    color: #fb000d;
+    transform: translateY(0.5rem); }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem 0; }
+  @media only screen and (max-width: 56.25em) {
+    .section-about {
+      padding: 20rem 0; } }

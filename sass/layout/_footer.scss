@@ -1,0 +1,10 @@
+.footer {
+	color: $color-gray-light-1;
+	background-color: $color-secondary-light;
+	padding: 10rem 0;
+	font-size: $default-font-size;
+
+	@include respond(tab-port) {
+		padding: 8rem 0;
+	}
+}
