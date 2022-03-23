@@ -1,0 +1,45 @@
+.btn {
+	&,
+	&:link,
+	&:visited {
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 1.5rem 3rem;
+		display: inline-block;
+		border-radius: $border-radius-medium;
+		transition: all 0.2s;
+		position: relative;
+		font-size: $default-font-size;
+
+		border: none;
+		cursor: pointer;
+	}
+
+	&:hover {
+		box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+	}
+
+	&:focus,
+	&:active {
+		outline: none;
+		box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+	}
+}
+
+.scroll-top-btn {
+	// display: none;
+	// visibility: hidden;
+
+	position: fixed;
+	bottom: 5rem;
+	right: 3rem;
+	z-index: 100;
+	border: none;
+	outline: none;
+	background-color: $color-primary;
+	color: $color-white;
+	cursor: pointer;
+	padding: 1.5rem 1.8rem;
+	border-radius: $border-radius-medium;
+	font-size: 1.8rem;
+}

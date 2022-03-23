@@ -4,7 +4,7 @@
 	align-items: center;
 	justify-content: space-between;
 
-	height: 80vh;
+	height: 100vh;
 	background-image: linear-gradient(
 		to right top,
 		rgba($color-secondary-light, 0.8),
@@ -23,7 +23,8 @@
 		height: 2rem;
 		border-radius: 1rem;
 		background-color: $color-white;
-		margin-bottom: 2rem;
+
+		margin-bottom: 10rem;
 
 		box-shadow: 0 0 0.5rem $color-primary-light, 0 0 2.5rem $color-primary-light,
 			0 0 5rem $color-primary-light, 0 0 10rem $color-primary-light;
