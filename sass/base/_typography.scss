@@ -89,6 +89,7 @@ body {
 	background-clip: text;
 	color: transparent;
 	letter-spacing: 2px;
+	padding-bottom: 7rem;
 	transition: all 0.2s;
 
 	@include respond(tab-port) {

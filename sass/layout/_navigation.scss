@@ -2,10 +2,24 @@
 	align-self: flex-end;
 	padding: 1rem 3rem;
 
+	@include respond(tab-land) {
+		align-self: auto;
+	}
+
+	@include respond(phone) {
+		align-self: flex-end;
+		padding: 1rem;
+	}
+
 	&__list {
 		list-style: none;
 		text-align: center;
 		display: flex;
+
+		@include respond(phone) {
+			flex-direction: column;
+			align-items: flex-end;
+		}
 	}
 
 	&__item {

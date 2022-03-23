@@ -89,6 +89,7 @@ body {
   background-clip: text;
   color: transparent;
   letter-spacing: 2px;
+  padding-bottom: 7rem;
   transition: all 0.2s; }
   @media only screen and (max-width: 56.25em) {
     .heading-secondary {
@@ -151,6 +152,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .scroll-top-btn {
+  display: none;
   position: fixed;
   bottom: 5rem;
   right: 3rem;
@@ -163,6 +165,78 @@ body {
   padding: 1.5rem 1.8rem;
   border-radius: 1rem;
   font-size: 1.8rem; }
+
+/* SLIDER */
+.slider {
+  max-width: 100rem;
+  height: 50rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* THIS creates the animation! */
+  transition: transform 1s; }
+
+.slide > img {
+  /* Only for images that have different size than slide */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.slider__btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 5.5rem;
+  width: 5.5rem;
+  font-size: 3.25rem;
+  cursor: pointer; }
+
+.slider__btn--left {
+  left: 6%;
+  transform: translate(-50%, -50%); }
+
+.slider__btn--right {
+  right: 6%;
+  transform: translate(50%, -50%); }
+
+.dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex; }
+  .dots__dot {
+    border: none;
+    background-color: #b9b9b9;
+    opacity: 0.7;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin-right: 1.75rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    /* Only necessary when overlying images */
+    /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */ }
+    .dots__dot:last-child {
+      margin: 0; }
+    .dots__dot--active {
+      /* background-color: #fff; */
+      background-color: #888;
+      opacity: 1; }
 
 .footer {
   color: #f7f7f7;
@@ -184,7 +258,7 @@ body {
   .header__neon {
     color: #fff;
     font-size: 1.6rem;
-    width: 40rem;
+    width: 40%;
     height: 2rem;
     border-radius: 1rem;
     background-color: #fff;
@@ -194,10 +268,21 @@ body {
 .navigation {
   align-self: flex-end;
   padding: 1rem 3rem; }
+  @media only screen and (max-width: 75em) {
+    .navigation {
+      align-self: auto; } }
+  @media only screen and (max-width: 37.5em) {
+    .navigation {
+      align-self: flex-end;
+      padding: 1rem; } }
   .navigation__list {
     list-style: none;
     text-align: center;
     display: flex; }
+    @media only screen and (max-width: 37.5em) {
+      .navigation__list {
+        flex-direction: column;
+        align-items: flex-end; } }
   .navigation__link:link, .navigation__link:visited {
     font-family: 'futura_originalregular';
     display: inline-block;
@@ -217,21 +302,24 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 25rem 0; }
+  padding: 25rem 0;
+  text-align: center; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
       padding: 10rem 0; } }
 
 .section-projects {
   background-color: #1b1818;
-  padding: 25rem 0; }
+  padding: 10rem 0 20rem 0;
+  text-align: center; }
   @media only screen and (max-width: 56.25em) {
     .section-projects {
       padding: 10rem 0; } }
 
 .section-cv {
   background-color: #f7f7f7;
-  padding: 25rem 0; }
+  padding: 25rem 0;
+  text-align: center; }
   @media only screen and (max-width: 56.25em) {
     .section-cv {
       padding: 10rem 0; } }

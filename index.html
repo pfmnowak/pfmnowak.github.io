@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<link rel="stylesheet" href="css/style.css" />
+		<script type="module" defer src="./script.js"></script>
 
 		<title>Mikołaj Nowak | Page</title>
 	</head>
@@ -40,7 +41,27 @@
 			</section>
 			<section class="section-projects" id="section-projects">
 				<h2 class="heading-secondary">Projects</h2>
-				<p>Hello world. Get ready for more...</p>
+				<div class="slider">
+					<a href="https://pfmnowak.github.io/natours-flexbox/">
+						<div class="slide">
+							<img src="img/natours.png" alt="Natours project" />
+						</div>
+					</a>
+					<a href="https://pfmnowak.github.io/sudoku-js/">
+						<div class="slide">
+							<img src="img/sudoku.png" alt="Sudoku game" />
+						</div>
+					</a>
+					<a href="https://pfmnowak.github.io/trillo-sass-course/">
+						<div class="slide">
+							<img src="img/trillo.png" alt="Trillo project" />
+						</div>
+					</a>
+
+					<button class="slider__btn slider__btn--left">&larr;</button>
+					<button class="slider__btn slider__btn--right">&rarr;</button>
+					<div class="dots"></div>
+				</div>
 			</section>
 			<section class="section-cv" id="section-cv">
 				<h2 class="heading-secondary">CV</h2>
