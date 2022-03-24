@@ -27,6 +27,33 @@ body {
   background-color: #b30009;
   color: #000; }
 
+@keyframes expand {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+
+@keyframes moveDownAndUp {
+  0% {
+    transform: translateY(0);
+    color: transparent; }
+  50% {
+    color: #fb000d;
+    transform: translateY(0.5rem); }
+  100% {
+    color: transparent;
+    transform: translateY(0); } }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -282,16 +309,21 @@ body {
   justify-content: space-between;
   height: 100vh;
   background-image: linear-gradient(to right top, rgba(27, 24, 24, 0.8), rgba(15, 9, 10, 0.8));
-  background-color: black; }
+  background-color: #0f090a;
+  overflow: hidden; }
   .header__neon {
     color: #fff;
     font-size: 1.6rem;
-    width: 40%;
+    width: 110%;
     height: 2rem;
     border-radius: 1rem;
     background-color: #fff;
-    margin-bottom: 10rem;
-    box-shadow: 0 0 0.5rem #fb000d, 0 0 2.5rem #fb000d, 0 0 5rem #fb000d, 0 0 10rem #fb000d; }
+    background-color: #f7f7f7;
+    margin-bottom: -2rem;
+    box-shadow: 0 0 0.5rem #fb000d, 0 0 2.5rem #fb000d, 0 0 5rem #fb000d, 0 0 10rem #fb000d;
+    animation-name: expand;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out; }
 
 .navigation {
   align-self: flex-end;
@@ -327,6 +359,11 @@ body {
   .navigation__link:hover, .navigation__link:active {
     color: #fb000d;
     transform: translateY(0.5rem); }
+  .navigation li:nth-of-type(2) a {
+    animation-name: moveDownAndUp;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out; }
 
 .section-about {
   background-color: #f7f7f7;
