@@ -1,15 +1,14 @@
 .footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
 	color: $color-gray-light-1;
 	background-color: $color-secondary-light;
-	padding: 10rem 0;
 	font-size: $default-font-size;
 
-	@include respond(tab-port) {
-		padding: 8rem 0;
-	}
-
 	&__info {
-		padding: 5rem 10rem;
+		padding: 5rem 0;
 		text-align: center;
 	}
 }
