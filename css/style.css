@@ -202,9 +202,11 @@ body {
   max-width: 150rem;
   height: 50rem;
   margin: 0 auto;
+  padding: 0 2rem;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
   .slider__box {
     flex: 1;
     position: relative;
@@ -213,6 +215,14 @@ body {
     overflow: hidden;
     margin: 0 5rem;
     border-radius: 1rem; }
+    @media only screen and (max-width: 75em) {
+      .slider__box {
+        margin: 0 2rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .slider__box {
+        margin-bottom: 5rem;
+        flex: 0 0 100%;
+        order: -1; } }
   .slider__btn {
     border: none;
     background-color: #0f090a;
@@ -225,6 +235,12 @@ body {
     cursor: pointer;
     outline: none;
     transition: all 0.2s; }
+    @media only screen and (max-width: 56.25em) {
+      .slider__btn--left {
+        margin-right: 10rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .slider__btn--left {
+        margin-right: 5rem; } }
     .slider__btn:hover {
       color: #fb000d; }
     .slider__btn--left:hover {
@@ -406,7 +422,7 @@ body {
   text-align: center; }
   @media only screen and (max-width: 56.25em) {
     .section-projects {
-      padding-bottom: 10rem; } }
+      padding-bottom: 15rem; } }
 
 .section-cv {
   background-color: #f7f7f7;
