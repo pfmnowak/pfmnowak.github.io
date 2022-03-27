@@ -7,4 +7,9 @@
 	@include respond(tab-port) {
 		padding: 8rem 0;
 	}
+
+	&__info {
+		padding: 5rem 10rem;
+		text-align: center;
+	}
 }
