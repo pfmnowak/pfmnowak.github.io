@@ -22,8 +22,6 @@ body {
 }
 
 .heading-primary {
-	// font-family: 'futuraregular';
-
 	text-align: center;
 	font-size: 4rem;
 	font-weight: 700;
@@ -33,37 +31,27 @@ body {
 	backface-visibility: hidden;
 	margin-bottom: 1rem;
 
+	color: $color-gray-light-2;
 	background-image: linear-gradient(
 		to left bottom,
 		$color-secondary-light,
 		$color-secondary-dark
 	);
-	// -webkit-background-clip: text;
-	// background-clip: text;
-	// color: transparent;
-
-	color: $color-primary;
 
 	&--main {
 		display: block;
-		font-weight: 400;
-		font-size: 6rem;
-		letter-spacing: 3.5rem;
-		padding-left: 3.5rem;
-
-		animation-name: moveInLeft;
-		animation-duration: 0.8s;
-		animation-timing-function: ease-out;
+		font-size: 5rem;
+		letter-spacing: 1.5rem;
+		padding-left: 1.5rem;
+		animation: moveInLeft 0.8s ease-out;
 
 		@include respond(phone) {
-			font-size: 5rem;
 			letter-spacing: 1rem;
 		}
 	}
 
 	&--sub {
 		display: block;
-		font-weight: 700;
 		font-size: 2rem;
 		letter-spacing: 1.75rem;
 		padding-left: 1.75rem;
@@ -121,4 +109,18 @@ body {
 	&:not(:last-child) {
 		margin-bottom: 3rem;
 	}
+}
+
+.colorful-text {
+	text-transform: none;
+	letter-spacing: 0;
+
+	background-image: linear-gradient(
+		to left bottom,
+		$color-primary-light,
+		$color-primary-dark
+	);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
 }
