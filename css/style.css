@@ -139,7 +139,27 @@ body {
 .heading-tertiary {
   font-size: 1.6rem;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 2.5rem;
+  background-image: linear-gradient(to left, #fb000d, #3b0003);
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  padding-top: 10rem;
+  padding-bottom: 7rem;
+  transition: all 0.2s; }
+  @media only screen and (max-width: 56.25em) {
+    .heading-tertiary {
+      font-size: 2rem;
+      padding-top: 7rem;
+      padding-bottom: 5rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .heading-tertiary {
+      font-size: 1.5rem; } }
+  .heading-tertiary:hover {
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .paragraph {
   font-size: 1.6rem; }
@@ -208,6 +228,63 @@ body {
   padding: 1.5rem 1.8rem;
   border-radius: 1rem;
   font-size: 1.8rem; }
+
+.skillbar {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem; }
+  .skillbar__skill {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-right: 1rem;
+    flex: 0 0 20%; }
+  .skillbar__container {
+    width: 100%;
+    /* Full width */
+    background-color: #707070;
+    /* Grey background */
+    border-radius: 10rem; }
+  .skillbar__progress {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    background-color: white;
+    color: white;
+    /* White text color */
+    border-radius: 10rem;
+    /* Blue */
+    /* Red */
+    /* Dark Grey */ }
+    .skillbar__progress--html {
+      width: 90%;
+      background-color: #04aa6d;
+      /* Green */ }
+    .skillbar__progress--css {
+      width: 80%;
+      background-color: #2196f3; }
+    .skillbar__progress--scss {
+      width: 75%; }
+    .skillbar__progress--new {
+      width: 67%; }
+    .skillbar__progress--js {
+      width: 65%;
+      background-color: #f44336; }
+    .skillbar__progress--php {
+      width: 60%;
+      background-color: #808080; }
+
+.skillbox {
+  display: flex;
+  align-items: center;
+  padding: 0 20rem; }
+  .skillbox__column {
+    display: flex;
+    flex: 50%;
+    flex-direction: column; }
 
 /* SLIDER */
 .slider {
@@ -385,6 +462,12 @@ body {
     animation-duration: 0.8s;
     animation-timing-function: ease-out; }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f7f7; }
+
 .navigation {
   align-self: flex-end;
   padding: 1rem 3rem; }
@@ -426,7 +509,10 @@ body {
     animation-timing-function: ease-in-out; }
 
 .section-about {
+  margin: auto;
   background-color: #f7f7f7;
+  width: 100%;
+  max-width: 114rem;
   text-align: center; }
 
 .section-projects {
@@ -438,5 +524,23 @@ body {
       padding-bottom: 15rem; } }
 
 .section-cv {
-  background-color: #f7f7f7;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 114rem;
   text-align: center; }
+  .section-cv__img {
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    width: 100%;
+    height: auto; }
+    @media only screen and (max-width: 37.5em) {
+      .section-cv__img {
+        width: auto;
+        height: 100%; } }
+  .section-cv__content {
+    position: relative; }

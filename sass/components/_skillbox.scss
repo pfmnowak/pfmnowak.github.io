@@ -1,0 +1,17 @@
+.skillbox {
+	display: flex;
+	align-items: center;
+	// justify-content: center;
+
+	padding: 0 20rem;
+	// background-color: aqua;
+
+	&__column {
+		display: flex;
+		flex: 50%;
+		flex-direction: column;
+		// justify-content: center;
+		// align-items: center;
+		// flex: 1
+	}
+}

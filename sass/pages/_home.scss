@@ -1,5 +1,11 @@
 .section-about {
+	margin: auto;
+	// display: flex;
+	// flex-direction: column;
 	background-color: $color-gray-light-1;
+	width: 100%;
+	max-width: 114rem;
+
 	text-align: center;
 }
 
@@ -14,6 +20,33 @@
 }
 
 .section-cv {
-	background-color: $color-gray-light-1;
+	overflow: hidden;
+	position: relative;
+
+	margin: auto;
+	// display: flex;
+	// flex-direction: column;
+	width: 100%;
+	max-width: 114rem;
+
 	text-align: center;
+
+	&__img {
+		opacity: 0.3;
+		position: absolute;
+		left: 0;
+		top: 0;
+		object-fit: cover;
+		width: 100%;
+		height: auto;
+
+		@include respond(phone) {
+			width: auto;
+			height: 100%;
+		}
+	}
+
+	&__content {
+		position: relative;
+	}
 }
