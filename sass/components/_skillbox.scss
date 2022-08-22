@@ -1,17 +1,12 @@
 .skillbox {
 	display: flex;
 	align-items: center;
-	// justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 
 	padding: 0 20rem;
-	// background-color: aqua;
 
-	&__column {
-		display: flex;
-		flex: 50%;
-		flex-direction: column;
-		// justify-content: center;
-		// align-items: center;
-		// flex: 1
+	@include respond(phone) {
+		padding: 0 5rem;
 	}
 }

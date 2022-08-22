@@ -232,59 +232,43 @@ body {
 .skillbar {
   display: flex;
   align-items: center;
-  padding: 0 2rem; }
+  padding: 0 2rem;
+  width: 35rem; }
   .skillbar__skill {
     text-align: left;
     text-transform: uppercase;
     font-size: 2rem;
-    padding-right: 1rem;
-    flex: 0 0 20%; }
+    flex: 0 0 30%; }
   .skillbar__container {
     width: 100%;
-    /* Full width */
-    background-color: #707070;
-    /* Grey background */
+    background-color: #777;
     border-radius: 10rem; }
   .skillbar__progress {
-    text-align: right;
-    /* Right-align text */
-    padding-top: 10px;
-    /* Add top padding */
-    padding-bottom: 10px;
-    /* Add bottom padding */
-    background-color: white;
+    padding: 1rem 0;
+    background-image: linear-gradient(to right, #fb000d, #3b0003);
+    background-color: #b30009;
     color: white;
-    /* White text color */
-    border-radius: 10rem;
-    /* Blue */
-    /* Red */
-    /* Dark Grey */ }
-    .skillbar__progress--html {
-      width: 90%;
-      background-color: #04aa6d;
-      /* Green */ }
-    .skillbar__progress--css {
-      width: 80%;
-      background-color: #2196f3; }
-    .skillbar__progress--scss {
-      width: 75%; }
-    .skillbar__progress--new {
-      width: 67%; }
-    .skillbar__progress--js {
-      width: 65%;
-      background-color: #f44336; }
-    .skillbar__progress--php {
-      width: 60%;
-      background-color: #808080; }
+    border-radius: 10rem; }
+    .skillbar__progress--beginner {
+      width: 20%; }
+    .skillbar__progress--intermediate {
+      width: 40%; }
+    .skillbar__progress--proficient {
+      width: 60%; }
+    .skillbar__progress--expert {
+      width: 80%; }
+    .skillbar__progress--god {
+      width: 100%; }
 
 .skillbox {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 0 20rem; }
-  .skillbox__column {
-    display: flex;
-    flex: 50%;
-    flex-direction: column; }
+  @media only screen and (max-width: 37.5em) {
+    .skillbox {
+      padding: 0 5rem; } }
 
 /* SLIDER */
 .slider {

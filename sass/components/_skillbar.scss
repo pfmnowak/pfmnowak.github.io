@@ -2,57 +2,52 @@
 	display: flex;
 	align-items: center;
 	padding: 0 2rem;
+	width: 35rem;
+	// margin: auto;
 
 	&__skill {
 		text-align: left;
 		// text-align: right;
 		text-transform: uppercase;
 		font-size: 2rem;
-		padding-right: 1rem;
-		flex: 0 0 20%;
+		flex: 0 0 30%;
 	}
 
 	&__container {
-		width: 100%; /* Full width */
-		background-color: rgb(112, 112, 112); /* Grey background */
+		width: 100%;
+		background-color: $color-gray-dark-2;
 		border-radius: 10rem;
 	}
 
 	&__progress {
-		text-align: right; /* Right-align text */
-		padding-top: 10px; /* Add top padding */
-		padding-bottom: 10px; /* Add bottom padding */
-		background-color: white;
-		color: white; /* White text color */
+		padding: 1rem 0;
+		background-image: linear-gradient(
+			to right,
+			$color-primary-light,
+			$color-primary-dark
+		);
+		background-color: $color-primary;
+		color: white;
 		border-radius: 10rem;
 
-		&--html {
-			width: 90%;
-			background-color: #04aa6d;
-			/* Green */
+		&--beginner {
+			width: 20%;
 		}
 
-		&--css {
-			width: 80%;
-			background-color: #2196f3;
-		} /* Blue */
-
-		&--scss {
-			width: 75%;
+		&--intermediate {
+			width: 40%;
 		}
 
-		&--new {
-			width: 67%;
-		}
-
-		&--js {
-			width: 65%;
-			background-color: #f44336;
-		} /* Red */
-
-		&--php {
+		&--proficient {
 			width: 60%;
-			background-color: #808080;
-		} /* Dark Grey */
+		}
+
+		&--expert {
+			width: 80%;
+		}
+
+		&--god {
+			width: 100%;
+		}
 	}
 }
