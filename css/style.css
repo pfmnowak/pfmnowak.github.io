@@ -147,7 +147,6 @@ body {
   background-clip: text;
   color: transparent;
   letter-spacing: 2px;
-  padding-top: 10rem;
   padding-bottom: 7rem;
   transition: all 0.2s; }
   @media only screen and (max-width: 56.25em) {
@@ -229,6 +228,26 @@ body {
   border-radius: 1rem;
   font-size: 1.8rem; }
 
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 5rem;
+  margin-left: 5rem;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999; }
+  @media only screen and (max-width: 37.5em) {
+    .list {
+      padding: 3rem 0rem; } }
+  .list__item {
+    flex: 0 0 50%;
+    margin-bottom: 0.7rem;
+    text-align: left;
+    font-size: 1.6rem;
+    padding-right: 2rem; }
+    @media only screen and (max-width: 37.5em) {
+      .list__item {
+        flex: 0 0 100%; } }
+
 .skillbar {
   display: flex;
   align-items: center;
@@ -265,8 +284,9 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 0 20rem; }
-  @media only screen and (max-width: 37.5em) {
+  padding: 0 10rem;
+  margin-bottom: 10rem; }
+  @media only screen and (max-width: 56.25em) {
     .skillbox {
       padding: 0 5rem; } }
 
