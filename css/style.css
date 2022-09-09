@@ -300,7 +300,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  user-select: none; }
   .slider__box {
     flex: 1;
     position: relative;
@@ -541,7 +542,8 @@ body {
     top: 0;
     object-fit: cover;
     width: 100%;
-    height: auto; }
+    height: auto;
+    user-select: none; }
     @media only screen and (max-width: 37.5em) {
       .section-cv__img {
         width: auto;
