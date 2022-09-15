@@ -1,3 +1,5 @@
+@import '../../sass/main';
+
 .navigation {
 	align-self: flex-end;
 	padding: 1rem 3rem;
@@ -22,10 +24,6 @@
 		}
 	}
 
-	&__item {
-		// margin: 1rem;
-	}
-
 	&__link {
 		&:link,
 		&:visited {
@@ -46,14 +44,11 @@
 			background-clip: text;
 			color: transparent;
 
-			// color: $color-secondary-light;
-
 			transition: all 0.4s;
 		}
 
 		&:hover,
 		&:active {
-			// color: $color-black;
 			color: $color-primary-light;
 			transform: translateY(0.5rem);
 		}

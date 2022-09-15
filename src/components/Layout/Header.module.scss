@@ -1,10 +1,11 @@
+@import '../../sass/main';
+
 .header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 
-	// height: 95vh;
 	height: 100vh;
 	background-image: linear-gradient(
 		to right top,
@@ -13,9 +14,6 @@
 	);
 	background-color: $color-secondary-dark;
 	overflow: hidden;
-
-	&__box {
-	}
 
 	&__neon {
 		color: $color-white;
