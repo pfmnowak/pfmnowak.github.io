@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './components/Layout/Footer';
 import Header from './components/Layout/Header';
 import MainContainer from './components/Layout/MainContainer';
+import ScrollTopButton from './components/UI/ScrollTopButton';
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
 			<Header />
 			<MainContainer />
 			<Footer />
+			<ScrollTopButton />
 		</div>
 	);
 }
