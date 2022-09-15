@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Slide from './Slide';
 import classes from './Slider.module.scss';
+import SliderButton from './SliderButton';
 
 const slides = [
 	{
@@ -106,22 +107,12 @@ const Slider = () => {
 
 	return (
 		<div className={classes.slider}>
-			<button
-				className={`${classes.slider__btn} ${classes['slider__btn--left']}`}
-				onClick={prevSlideHandler}
-			>
-				&larr;
-			</button>
+			<SliderButton onClick={prevSlideHandler} direction="left" />
 			<div className={classes.slider__box}>
 				{slidesToRender}
 				{dotsToRender}
 			</div>
-			<button
-				className={`${classes.slider__btn} ${classes['slider__btn--right']}`}
-				onClick={nextSlideHandler}
-			>
-				&rarr;
-			</button>
+			<SliderButton onClick={nextSlideHandler} direction="right" />
 		</div>
 	);
 };

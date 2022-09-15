@@ -32,42 +32,6 @@
 			order: -1;
 		}
 	}
-
-	&__btn {
-		border: none;
-		background-color: $color-secondary-dark;
-		color: $color-primary;
-		font-family: inherit;
-		border-radius: 50%;
-		height: 5.5rem;
-		width: 5.5rem;
-		font-size: 3.25rem;
-		cursor: pointer;
-		outline: none;
-		transition: all 0.2s;
-
-		&--left {
-			@include respond('tab-port') {
-				margin-right: 10rem;
-			}
-
-			@include respond('phone') {
-				margin-right: 5rem;
-			}
-		}
-
-		&:hover {
-			color: $color-primary-light;
-		}
-
-		&--left:hover {
-			transform: translateX(-0.5rem);
-		}
-
-		&--right:hover {
-			transform: translateX(0.5rem);
-		}
-	}
 }
 
 .dots {
@@ -97,7 +61,6 @@
 		}
 
 		&--active {
-			/* background-color: #fff; */
 			background-color: $color-primary;
 			opacity: 1;
 		}
