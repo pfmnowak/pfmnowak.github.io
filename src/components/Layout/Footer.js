@@ -1,11 +1,12 @@
 import React from 'react';
 import SocialLinks from '../SocialLink/SocialLinks';
+import HeaderSecondary from '../UI/HeaderSecondary';
 import classes from './Footer.module.scss';
 
 const Footer = () => {
 	return (
 		<footer className={classes.footer} id="footer">
-			<h2 className={classes['heading-secondary']}>Contact</h2>
+			<HeaderSecondary>Contact</HeaderSecondary>
 			<SocialLinks />
 			<div className={classes.footer__info}>
 				<p>If you have any questions, please hesitate to contact me.</p>
