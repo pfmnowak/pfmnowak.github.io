@@ -1,9 +1,8 @@
 import React from 'react';
 import Icons from '../img/sprite.svg';
-import classes from './IconSvg.module.scss';
 
 const IconSvg = props => (
-	<svg className={classes.social__icon}>
+	<svg className={props.class}>
 		<use xlinkHref={`${Icons}#${props.name}`} />
 	</svg>
 );

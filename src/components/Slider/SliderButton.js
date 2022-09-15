@@ -1,5 +1,5 @@
 import React from 'react';
-import Icons from '../../img/sprite.svg';
+import IconSvg from '../IconSvg';
 import classes from './SliderButton.module.scss';
 
 const SliderButton = props => {
@@ -10,9 +10,10 @@ const SliderButton = props => {
 			}`}
 			onClick={props.onClick}
 		>
-			<svg className={classes.slider__arrow}>
-				<use xlinkHref={`${Icons}#icon-arrow-${props.direction}21`} />
-			</svg>
+			<IconSvg
+				class={classes.slider__arrow}
+				name={`icon-arrow-${props.direction}21`}
+			/>
 		</button>
 	);
 };
