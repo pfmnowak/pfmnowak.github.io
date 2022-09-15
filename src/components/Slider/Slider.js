@@ -58,12 +58,19 @@ const Slider = () => {
 		);
 	};
 
+	const keyDownHandler = e => {
+		e.key === 'ArrowLeft' && !e.repeat && prevSlideHandler();
+		e.key === 'ArrowRight' && !e.repeat && nextSlideHandler();
+	};
+
 	useEffect(() => {
-		// Event handler (for a keyboard)
-		document.addEventListener('keydown', function (e) {
-			e.key === 'ArrowLeft' && prevSlideHandler();
-			e.key === 'ArrowRight' && nextSlideHandler();
-		});
+		// Add Event handler (for a keyboard)
+		window.addEventListener('keydown', keyDownHandler);
+
+		// Remove event listener on cleanup
+		return () => {
+			window.removeEventListener('keydown', keyDownHandler);
+		};
 	}, []);
 
 	const clickDotHandler = index => {
