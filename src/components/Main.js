@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Main.module.scss';
+import Slider from './Slider/Slider';
 
 const Main = () => {
 	return (
@@ -13,93 +14,7 @@ const Main = () => {
 				</section>
 				<section className={classes['section-projects']} id="section-projects">
 					<h2 className={classes['heading-secondary']}>Projects</h2>
-					<div className={classes.slider}>
-						<button
-							className={(classes.slider__btn, classes['slider__btn--left'])}
-						>
-							&larr;
-						</button>
-						<div className={classes.slider__box}>
-							<a href="https://pfmnowak.github.io/sudoku-js/">
-								<figure className={classes.slide}>
-									<img
-										src={require('../img/sudoku.PNG')}
-										alt="Sudoku game"
-										className={classes.slide__img}
-									/>
-									<figcaption className={classes.slide__caption}>
-										Sudoku JS
-									</figcaption>
-								</figure>
-							</a>
-							<a href="https://pfmnowak.github.io/food-order-react/">
-								<figure className={classes.slide}>
-									<img
-										src={require('../img/food-order-react.PNG')}
-										alt="Food order React App"
-										className={classes.slide__img}
-									/>
-									<figcaption className={classes.slide__caption}>
-										Food order React
-									</figcaption>
-								</figure>
-							</a>
-							<a href="https://pfmnowak.github.io/natours-flexbox/">
-								<figure className={classes.slide}>
-									<img
-										src={require('../img/natours.PNG')}
-										alt="Natours project"
-										className={classes.slide__img}
-									/>
-									<figcaption className={classes.slide__caption}>
-										Natours project
-									</figcaption>
-								</figure>
-							</a>
-							<a href="https://pfmnowak.github.io/expenses-react/">
-								<figure className={classes.slide}>
-									<img
-										src={require('../img/expenses-react.PNG')}
-										alt="Expenses React App"
-										className={classes.slide__img}
-									/>
-									<figcaption className={classes.slide__caption}>
-										Expenses React
-									</figcaption>
-								</figure>
-							</a>
-							<a href="https://pfmnowak.github.io/github-repos-app/src/">
-								<figure className={classes.slide}>
-									<img
-										src={require('../img/github-repos.PNG')}
-										alt="GitHub Repos App"
-										className={classes.slide__img}
-									/>
-									<figcaption className={classes.slide__caption}>
-										GitHub Repos
-									</figcaption>
-								</figure>
-							</a>
-							<a href="https://pfmnowak.github.io/trillo-sass-course/">
-								<figure className={classes.slide}>
-									<img
-										src={require('../img/trillo.PNG')}
-										alt="Trillo project"
-										className={classes.slide__img}
-									/>
-									<figcaption className={classes.slide__caption}>
-										Trillo project
-									</figcaption>
-								</figure>
-							</a>
-							<div className={classes.dots}></div>
-						</div>
-						<button
-							className={(classes.slider__btn, classes['slider__btn--right'])}
-						>
-							&rarr;
-						</button>
-					</div>
+					<Slider />
 				</section>
 
 				<section className={classes['section-cv']} id="section-cv">
