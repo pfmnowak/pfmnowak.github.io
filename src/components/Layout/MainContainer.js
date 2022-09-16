@@ -1,6 +1,8 @@
 import React from 'react';
+import Listing from '../Listing/Listing';
 import Skillbar from '../Skillbar/Skillbar';
 import Slider from '../Slider/Slider';
+import FlexContainer from '../UI/FlexContainer';
 import HeaderSecondary from '../UI/HeaderSecondary';
 import HeaderTertiary from '../UI/HeaderTertiary';
 import classes from './MainContainer.module.scss';
@@ -125,7 +127,7 @@ const MainContainer = () => {
 							id="section-tech-skills"
 						>
 							<HeaderTertiary>tech skills</HeaderTertiary>
-							<div className={classes.skillbox}>
+							<FlexContainer>
 								{techSkills.map(skill => (
 									<Skillbar
 										key={skill.name}
@@ -133,22 +135,16 @@ const MainContainer = () => {
 										level={skill.level}
 									/>
 								))}
-							</div>
+							</FlexContainer>
 						</section>
 						<section
 							className={classes['section-soft-skills']}
 							id="section-soft-skills"
 						>
 							<HeaderTertiary>soft skills</HeaderTertiary>
-							<div className={classes.skillbox}>
-								<ul className={classes.list}>
-									{softSkills.map((skill, index) => (
-										<li key={index} className={classes.list__item}>
-											{skill}
-										</li>
-									))}
-								</ul>
-							</div>
+							<FlexContainer>
+								<Listing items={softSkills} />
+							</FlexContainer>
 						</section>
 						<section className={classes['section-certs']} id="section-certs">
 							<HeaderTertiary>certs</HeaderTertiary>
