@@ -1,23 +1,4 @@
-.section-about {
-	margin: auto;
-	// display: flex;
-	// flex-direction: column;
-	background-color: $color-gray-light-1;
-	width: 100%;
-	max-width: 114rem;
-
-	text-align: center;
-}
-
-.section-projects {
-	background-color: $color-secondary-light;
-	padding-bottom: 20rem;
-	text-align: center;
-
-	@include respond(tab-port) {
-		padding-bottom: 15rem;
-	}
-}
+@import '../../../sass/main';
 
 .section-cv {
 	overflow: hidden;

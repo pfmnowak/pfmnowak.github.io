@@ -1,6 +1,6 @@
 import React from 'react';
-import SocialLinks from '../SocialLink/SocialLinks';
-import HeaderSecondary from '../UI/HeaderSecondary';
+import SocialLinks from '../../SocialLink/SocialLinks';
+import HeaderSecondary from '../../UI/HeaderSecondary';
 import classes from './Footer.module.scss';
 
 const Footer = () => {
