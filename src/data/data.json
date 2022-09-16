@@ -1,0 +1,184 @@
+{
+	"navigationLinks": [
+		{
+			"id": "#section-about",
+			"title": "About"
+		},
+		{
+			"id": "#section-projects",
+			"title": "Projects"
+		},
+		{
+			"id": "#section-cv",
+			"title": "CV"
+		},
+		{
+			"id": "#footer",
+			"title": "Contact"
+		}
+	],
+	"techSkills": [
+		{
+			"name": "html",
+			"level": "expert"
+		},
+		{
+			"name": "css",
+			"level": "expert"
+		},
+		{
+			"name": "scss",
+			"level": "proficient"
+		},
+		{
+			"name": "js",
+			"level": "proficient"
+		},
+		{
+			"name": "React",
+			"level": "intermediate"
+		},
+		{
+			"name": "Docker",
+			"level": "intermediate"
+		},
+		{
+			"name": "java",
+			"level": "proficient"
+		},
+		{
+			"name": "BEM",
+			"level": "expert"
+		},
+		{
+			"name": "mySQL",
+			"level": "proficient"
+		},
+		{
+			"name": "git",
+			"level": "proficient"
+		},
+		{
+			"name": "npm",
+			"level": "proficient"
+		},
+		{
+			"name": "Webpack",
+			"level": "beginner"
+		},
+		{
+			"name": "DDD",
+			"level": "beginner"
+		},
+		{
+			"name": "TDD",
+			"level": "beginner"
+		},
+		{
+			"name": "maven",
+			"level": "intermediate"
+		},
+		{
+			"name": "kafka",
+			"level": "beginner"
+		}
+	],
+	"softSkills": [
+		"Developing web apps",
+		"Building reponsive apps & pages",
+		"Willingness to learn new skills & technologies",
+		"Ability to work in a group",
+		"Working under time pressure",
+		"Good working knowledge of technology",
+		"Open mindset",
+		"Experience with business",
+		"Working in an international environment",
+		"Maintaining clean workspace",
+		"Ergonomic and safe work",
+		"Good stress management",
+		"Ability to self-organize work",
+		"Work life balance",
+		"Business knowledge and the desire to learn more",
+		"Good knowledge of Microsoft Office Suite",
+		"Self-development",
+		"Problem solving",
+		"Written and verbal communication",
+		"Detail-oriented"
+	],
+	"socialLinks": [
+		{
+			"link": "https://www.facebook.com/profile.php?id=100002371834866",
+			"title": "Facebook profile",
+			"icon": "icon-facebook",
+			"active": true
+		},
+		{
+			"link": "https://www.linkedin.com/in/mikołaj-nowak-621481230",
+			"title": "LinkedIn profile",
+			"icon": "icon-linkedin2",
+			"active": true
+		},
+		{
+			"link": "https://github.com/pfmnowak",
+			"title": "GitHub Repo",
+			"icon": "icon-github",
+			"active": true
+		},
+		{
+			"link": "https://www.instagram.com/",
+			"title": "TBA",
+			"icon": "icon-instagram",
+			"active": false
+		},
+		{
+			"link": "https://pl.pinterest.com/pfmnowak/",
+			"title": "Pinterest profile",
+			"icon": "icon-pinterest2",
+			"active": true
+		},
+		{
+			"link": "mailto:pfmnowak@gmail.com",
+			"title": "Mail me",
+			"icon": "icon-mail4",
+			"active": true
+		}
+	],
+	"slides": [
+		{
+			"link": "https://pfmnowak.github.io/sudoku-js/",
+			"filename": "sudoku.PNG",
+			"tooltip": "Sudoku game",
+			"caption": "Sudoku JS"
+		},
+		{
+			"link": "https://pfmnowak.github.io/food-order-react/",
+			"filename": "food-order-react.PNG",
+			"tooltip": "Food order React App",
+			"caption": "Food order React"
+		},
+		{
+			"link": "https://pfmnowak.github.io/natours-flexbox/",
+			"filename": "natours.PNG",
+			"tooltip": "Natours project",
+			"caption": "Natours project"
+		},
+		{
+			"link": "https://pfmnowak.github.io/expenses-react/",
+			"filename": "expenses-react.PNG",
+			"tooltip": "Expenses React App",
+			"caption": "Expenses React"
+		},
+		{
+			"link": "https://pfmnowak.github.io/github-repos-app/src/",
+			"filename": "github-repos.PNG",
+			"tooltip": "GitHub Repos App",
+			"caption": "GitHub Repos"
+		},
+		{
+			"link": "https://pfmnowak.github.io/trillo-sass-course/",
+			"filename": "trillo.PNG",
+			"tooltip": "Trillo project",
+			"caption": "Trillo project"
+		}
+	]
+}

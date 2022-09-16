@@ -1,0 +1,11 @@
+@import '../../../sass/main';
+
+.section-projects {
+	background-color: $color-secondary-light;
+	padding-bottom: 20rem;
+	text-align: center;
+
+	@include respond(tab-port) {
+		padding-bottom: 15rem;
+	}
+}

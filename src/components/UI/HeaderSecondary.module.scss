@@ -1,0 +1,35 @@
+@import '../../sass/main';
+
+.heading-secondary {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-image: linear-gradient(
+		to right,
+		$color-primary-light,
+		$color-primary-dark
+	);
+	display: inline-block;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	letter-spacing: 2px;
+	padding-top: 10rem;
+	padding-bottom: 7rem;
+	transition: all 0.2s;
+
+	@include respond(tab-port) {
+		font-size: 3rem;
+		padding-top: 7rem;
+		padding-bottom: 5rem;
+	}
+
+	@include respond(phone) {
+		font-size: 2.5rem;
+	}
+
+	&:hover {
+		transform: scale(1.07);
+		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+	}
+}

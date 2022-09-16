@@ -1,0 +1,26 @@
+@import '../../sass/main';
+
+.listing {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3rem 5rem;
+	margin-left: 5rem;
+	border-bottom: $line;
+	border-top: $line;
+
+	@include respond(phone) {
+		padding: 3rem 0rem;
+	}
+
+	&__item {
+		flex: 0 0 50%;
+		margin-bottom: 0.7rem;
+		text-align: left;
+		font-size: $default-font-size;
+		padding-right: 2rem;
+
+		@include respond(phone) {
+			flex: 0 0 100%;
+		}
+	}
+}

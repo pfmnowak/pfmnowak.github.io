@@ -1,0 +1,46 @@
+@import '../../sass/main';
+
+.slider__btn {
+	border: none;
+	background-color: $color-secondary-dark;
+	font-family: inherit;
+	border-radius: 50%;
+	height: 5.5rem;
+	width: 5.5rem;
+	padding: 1.5rem;
+	cursor: pointer;
+	outline: none;
+	transition: all 0.2s;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&--left {
+		@include respond('tab-port') {
+			margin-right: 10rem;
+		}
+
+		@include respond('phone') {
+			margin-right: 5rem;
+		}
+	}
+
+	&:hover .slider__arrow {
+		fill: $color-primary-light;
+	}
+
+	&--left:hover {
+		transform: translateX(-0.5rem);
+	}
+
+	&--right:hover {
+		transform: translateX(0.5rem);
+	}
+}
+
+.slider__arrow {
+	width: 100%;
+	height: 100%;
+	fill: $color-primary;
+}

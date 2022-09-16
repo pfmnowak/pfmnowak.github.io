@@ -1,0 +1,68 @@
+@import '../../sass/main';
+
+/* SLIDER */
+.slider {
+	position: relative;
+	max-width: 150rem;
+	height: 50rem;
+	margin: 0 auto;
+	padding: 0 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	user-select: none;
+
+	&__box {
+		flex: 1;
+		position: relative;
+		max-width: 100rem;
+		height: 50rem;
+		overflow: hidden;
+		margin: 0 5rem;
+		border-radius: $border-radius-medium;
+
+		@include respond('tab-land') {
+			margin: 0 2rem;
+		}
+
+		@include respond('tab-port') {
+			margin-bottom: 5rem;
+			flex: 0 0 100%;
+			order: -1;
+		}
+	}
+}
+
+.dots {
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+
+	&__dot {
+		border: none;
+		background-color: #b9b9b9;
+		background-color: $color-primary-dark;
+		opacity: 0.7;
+		height: 1rem;
+		width: 1rem;
+		border-radius: 50%;
+		margin-right: 1.75rem;
+		cursor: pointer;
+		transition: all 0.4s;
+
+		/* Only necessary when overlying images */
+		/* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
+
+		&:last-child {
+			margin: 0;
+		}
+
+		&--active {
+			background-color: $color-primary;
+			opacity: 1;
+		}
+	}
+}

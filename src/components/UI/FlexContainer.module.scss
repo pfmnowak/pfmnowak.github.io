@@ -1,0 +1,15 @@
+@import '../../sass/main';
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+	padding: 0 10rem;
+	margin-bottom: 10rem;
+
+	@include respond(tab-port) {
+		padding: 0 5rem;
+	}
+}

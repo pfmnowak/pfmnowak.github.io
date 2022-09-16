@@ -1,0 +1,44 @@
+@import '../../sass/main';
+
+.scroll-top-btn {
+	position: fixed;
+	bottom: 3rem;
+	right: 3rem;
+	z-index: 100;
+	outline: none;
+	border: none;
+	border-radius: 50%;
+	background-color: $color-primary;
+	width: 6rem;
+	height: 6rem;
+	padding: 1.7rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.8) 0 2rem 3rem -1rem;
+	visibility: hidden;
+	opacity: 0;
+	margin-bottom: -12rem;
+	transition: transform 0.3s ease-out, visibility 0.7s, opacity 0.7s,
+		margin-bottom 0.7s;
+
+	&:hover {
+		transform: translateY(-5px);
+		background-color: $color-black;
+		box-shadow: rgba(0, 0, 0, 0.8) 0 2rem 2rem -1rem;
+	}
+
+	&:hover &__arrow {
+		fill: $color-primary-light;
+	}
+
+	&:active {
+		transform: translateY(3px);
+		box-shadow: rgba(0, 0, 0, 0.9) 0 2.5rem 3.5rem -0.8rem;
+	}
+
+	&__arrow {
+		fill: $color-black;
+	}
+}
