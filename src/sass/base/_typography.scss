@@ -26,11 +26,9 @@ body {
 	font-size: 4rem;
 	font-weight: 700;
 	text-transform: uppercase;
-
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	margin-bottom: 1rem;
-
 	color: $color-gray-light-2;
 	background-image: linear-gradient(
 		to left bottom,
@@ -73,7 +71,6 @@ body {
 .colorful-text {
 	text-transform: none;
 	letter-spacing: 0;
-
 	background-image: linear-gradient(
 		to left bottom,
 		$color-primary-light,
