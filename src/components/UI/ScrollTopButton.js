@@ -24,22 +24,20 @@ const ScrollTopButton = () => {
 	window.addEventListener('scroll', toggleVisible);
 
 	return (
-		<a href="#">
-			<button
-				className={classes['scroll-top-btn']}
-				onClick={scrollToTop}
-				style={{
-					opacity: visible ? 1 : 0,
-					visibility: visible ? 'visible' : 'hidden',
-					marginBottom: visible ? 0 : '-12rem',
-				}}
-			>
-				<IconSvg
-					class={classes['scroll-top-btn__arrow']}
-					name={'icon-chevron-up'}
-				/>
-			</button>
-		</a>
+		<button
+			className={classes['scroll-top-btn']}
+			onClick={scrollToTop}
+			style={{
+				opacity: visible ? 1 : 0,
+				visibility: visible ? 'visible' : 'hidden',
+				marginBottom: visible ? 0 : '-12rem',
+			}}
+		>
+			<IconSvg
+				class={classes['scroll-top-btn__arrow']}
+				name={'icon-chevron-up'}
+			/>
+		</button>
 	);
 };
 
