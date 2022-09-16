@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import IconSvg from '../IconSvg';
+import IconSvg from '../UI/IconSvg';
 import classes from './ScrollTopButton.module.scss';
 
 const ScrollTopButton = () => {

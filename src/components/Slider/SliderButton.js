@@ -1,5 +1,5 @@
 import React from 'react';
-import IconSvg from '../IconSvg';
+import IconSvg from '../UI/IconSvg';
 import classes from './SliderButton.module.scss';
 
 const SliderButton = props => {
