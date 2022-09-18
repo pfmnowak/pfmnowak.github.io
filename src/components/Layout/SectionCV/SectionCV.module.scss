@@ -1,28 +1,12 @@
 @import '../../../sass/main';
 
 .section-cv {
+	margin: auto;
 	overflow: hidden;
 	position: relative;
-	margin: auto;
 	width: 100%;
 	max-width: 114rem;
 	text-align: center;
-
-	&__img {
-		opacity: 0.3;
-		position: absolute;
-		left: 0;
-		top: 0;
-		object-fit: cover;
-		width: 100%;
-		height: auto;
-		user-select: none;
-
-		@include respond(phone) {
-			width: auto;
-			height: 100%;
-		}
-	}
 
 	&__content {
 		position: relative;

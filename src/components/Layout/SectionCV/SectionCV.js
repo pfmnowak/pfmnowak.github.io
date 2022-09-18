@@ -2,6 +2,7 @@ import React from 'react';
 import data from '../../../data/data.json';
 import Listing from '../../Listing/Listing';
 import Skillbar from '../../Skillbar/Skillbar';
+import BackgroundImage from '../../UI/BackgroundImage';
 import FlexContainer from '../../UI/FlexContainer';
 import HeaderSecondary from '../../UI/HeaderSecondary';
 import HeaderTertiary from '../../UI/HeaderTertiary';
@@ -10,9 +11,8 @@ import classes from './SectionCV.module.scss';
 const SectionCV = () => {
 	return (
 		<section className={classes['section-cv']} id="section-cv">
-			<img
-				className={classes['section-cv__img']}
-				src={require('../../../img/white-desk.jpg')}
+			<BackgroundImage
+				link={require('../../../img/white-desk.jpg')}
 				alt="Section background"
 			/>
 			<div className={classes['section-cv__content']}>
