@@ -21,73 +21,46 @@
 	max-width: 114rem;
 	margin: auto;
 	margin-bottom: 5rem;
-
-	// position: relative;
-	display: flex;
-	// background-color: $color-gray-light-3;
 	border-radius: $border-radius-medium;
+	display: flex;
 	overflow: hidden;
 
-	// margin: 0 5rem 5rem 5rem;
-
 	@include respond('phone') {
-		margin: 0;
+		margin-bottom: 0rem;
 		flex-direction: column;
 	}
 
 	&__description {
-		background-color: $color-black;
-		color: $color-white;
 		flex: 1;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
 		padding: 5rem;
+		background-color: $color-black;
 	}
 }
 
 .profile-picture {
-	padding: 6rem;
-
-	background-image: linear-gradient(
-		to left bottom,
-		$color-secondary-light,
-		$color-secondary-dark
-	);
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.8;
 	background-image: linear-gradient(
 		to right top,
 		$color-gray-light-3,
 		$color-gray-light-1
 	);
-	opacity: 0.8;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	padding: 6rem;
 
 	@include respond('phone') {
 		padding: 4rem;
-		border-radius: $border-radius-medium;
-		background-image: linear-gradient(
-			to right top,
-			$color-gray-light-3,
-			$color-gray-light-1
-		);
-		// opacity: 0.8;
-		// background-image: unset;
 	}
 
 	&__img {
-		/* Only for images that have different size than slide */
 		width: 30rem;
 		height: 45rem;
-		// margin: 10rem;
-		// border-radius: 50%;
 		border-radius: $border-radius-medium;
 		box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-		opacity: 0.85;
 		user-select: none;
 
 		@include respond('phone') {

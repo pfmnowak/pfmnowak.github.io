@@ -43,6 +43,8 @@ const SectionCV = () => {
 				</section>
 				<section className={classes['section-certs']} id="section-certs">
 					<HeaderTertiary>certs</HeaderTertiary>
+					<p className={classes.paragraph}>To be continued...</p>
+					<br />
 				</section>
 				<section
 					className={classes['section-languages']}
