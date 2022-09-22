@@ -15,13 +15,13 @@
 	color: transparent;
 	letter-spacing: 2px;
 	padding-top: 10rem;
-	padding-bottom: 7rem;
+	margin-bottom: 7rem;
 	transition: all 0.2s;
 
 	@include respond(tab-port) {
 		font-size: 3rem;
 		padding-top: 7rem;
-		padding-bottom: 5rem;
+		margin-bottom: 5rem;
 	}
 
 	@include respond(phone) {

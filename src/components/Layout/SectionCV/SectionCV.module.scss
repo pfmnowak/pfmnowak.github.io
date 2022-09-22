@@ -10,5 +10,17 @@
 
 	&__content {
 		position: relative;
+
+		& section:not(:first-of-type) {
+			margin-top: 10rem;
+
+			@include respond(tab-port) {
+				margin-top: 7rem;
+			}
+		}
 	}
+}
+
+.section-certs {
+	font-weight: 700;
 }

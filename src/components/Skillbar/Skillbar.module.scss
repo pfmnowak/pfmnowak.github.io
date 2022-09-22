@@ -6,6 +6,10 @@
 	padding: 0 2rem;
 	width: 35rem;
 
+	&:hover &__skill {
+		color: $color-black;
+	}
+
 	&__skill {
 		text-align: left;
 		text-transform: uppercase;

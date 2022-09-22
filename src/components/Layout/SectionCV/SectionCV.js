@@ -9,6 +9,33 @@ import HeaderTertiary from '../../UI/HeaderTertiary';
 import classes from './SectionCV.module.scss';
 
 const SectionCV = () => {
+	const certLinks = [
+		<a
+			className={classes['inline-link']}
+			href="https://www.udemy.com/certificate/UC-8e915ef1-d8e1-4b42-bdcb-bb11c58155ae/"
+			title="React - The Complete Guide (incl Hooks, React Router, Redux)"
+			target="_blank"
+		>
+			React Course certificate
+		</a>,
+		<a
+			className={classes['inline-link']}
+			href="https://www.udemy.com/certificate/UC-179b9315-d343-48c7-9352-a39d2aede9d4/"
+			title="The Complete JavaScript Course 2021: From Zero to Expert!"
+			target="_blank"
+		>
+			JS Course certificate
+		</a>,
+		<a
+			className={classes['inline-link']}
+			href={require('../../../img/TOEIC.jpg')}
+			title="TOEIC TEST certificate"
+			target="_blank"
+		>
+			TOEIC TEST SCORE
+		</a>,
+	];
+
 	return (
 		<section className={classes['section-cv']} id="section-cv">
 			<BackgroundImage
@@ -38,25 +65,26 @@ const SectionCV = () => {
 				>
 					<HeaderTertiary>soft skills</HeaderTertiary>
 					<FlexContainer>
-						<Listing items={data.softSkills} />
+						<Listing items={data.softSkills} type="double" />
 					</FlexContainer>
 				</section>
 				<section className={classes['section-certs']} id="section-certs">
 					<HeaderTertiary>certs</HeaderTertiary>
-					<p className={classes.paragraph}>To be continued...</p>
-					<br />
+					<Listing items={certLinks} type="single" />
 				</section>
 				<section
 					className={classes['section-languages']}
 					id="section-languages"
 				>
 					<HeaderTertiary>languages</HeaderTertiary>
+					<Listing items={data.languages} type="horizontal" />
 				</section>
 				<section
 					className={classes['section-eduaction']}
 					id="section-eduaction"
 				>
 					<HeaderTertiary>education</HeaderTertiary>
+					<p className={classes.paragraph}>To be continued...</p>
 				</section>
 				<section
 					className={classes['section-experience']}

@@ -1,26 +1,56 @@
 @import '../../sass/main';
 
+.listing__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .listing {
+	flex: 1;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 3rem 5rem;
-	margin-left: 5rem;
-	border-bottom: $line;
-	border-top: $line;
+	font-size: $default-font-size;
+	list-style: inside;
 
 	@include respond(phone) {
-		padding: 3rem 0rem;
+		flex: initial;
+		flex-direction: column;
+		align-items: flex-start;
 	}
 
-	&__item {
-		flex: 0 0 50%;
-		margin-bottom: 0.7rem;
-		text-align: left;
-		font-size: $default-font-size;
-		padding-right: 2rem;
+	& li {
+		&:hover {
+			color: $color-black;
+		}
+	}
+
+	&--double {
+		padding: 3rem 5rem;
+		border-top: $line;
+		border-bottom: $line;
 
 		@include respond(phone) {
-			flex: 0 0 100%;
+			padding: 3rem 3rem;
+		}
+
+		& li {
+			margin-bottom: 0.7rem;
+			flex: 0 0 50%;
+			padding-right: 2rem;
+			text-align: left;
+
+			@include respond(phone) {
+				flex: 0 0 100%;
+				padding: 0;
+			}
+		}
+	}
+
+	&--horizontal {
+		& li {
+			flex: 1 0 auto;
+			text-align: center;
 		}
 	}
 }
