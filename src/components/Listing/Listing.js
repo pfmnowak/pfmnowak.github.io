@@ -9,8 +9,7 @@ const Listing = props => {
 			listingClass = classes['listing--horizontal'];
 			break;
 		case 'single':
-			// listingClass = classes['listing--single'];
-			listingClass = classes['listing--horizontal'];
+			listingClass = classes['listing--single'];
 			break;
 		case 'double':
 			listingClass = classes['listing--double'];

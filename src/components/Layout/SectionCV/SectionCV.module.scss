@@ -23,4 +23,40 @@
 
 .section-certs {
 	font-weight: 700;
+	color: $color-black;
+}
+
+.institution {
+	padding: 2rem;
+	color: $color-black;
+	border-radius: $border-radius-medium;
+	background-image: linear-gradient(
+		to left,
+		rgba($color-gray-light-1, 0.7),
+		rgba($color-gray-light-2, 0.7)
+	);
+	display: flex;
+
+	&__icon {
+		width: 5rem;
+		height: 5rem;
+		flex: 0 0 auto;
+	}
+
+	&__details {
+		padding-left: 3rem;
+	}
+
+	&__field {
+		font-weight: 700;
+	}
+
+	&__name {
+		text-decoration: underline;
+	}
+
+	&__date {
+		text-align: left;
+		font-size: $default-font-size;
+	}
 }

@@ -6,6 +6,7 @@ import BackgroundImage from '../../UI/BackgroundImage';
 import FlexContainer from '../../UI/FlexContainer';
 import HeaderSecondary from '../../UI/HeaderSecondary';
 import HeaderTertiary from '../../UI/HeaderTertiary';
+import IconSvg from '../../UI/IconSvg';
 import classes from './SectionCV.module.scss';
 
 const SectionCV = () => {
@@ -34,6 +35,39 @@ const SectionCV = () => {
 		>
 			TOEIC TEST SCORE
 		</a>,
+	];
+
+	const educationList = [
+		<div className={classes.institution}>
+			<IconSvg class={classes.institution__icon} name="icon-graduation-cap" />
+			<div className={classes.institution__details}>
+				<div className={classes.institution__name}>
+					<span className={classes.institution__field}>Economics, </span>
+					UKW in Bydgoszcz
+				</div>
+				<div className={classes.institution__date}>2021 ~ now</div>
+			</div>
+		</div>,
+		<div className={classes.institution}>
+			<IconSvg class={classes.institution__icon} name="icon-graduation-cap" />
+			<div className={classes.institution__details}>
+				<div className={classes.institution__name}>
+					<span className={classes.institution__field}>ICT, </span>
+					Politechnika Bydgoska
+				</div>
+				<div className={classes.institution__date}> 2022 - engineer</div>
+			</div>
+		</div>,
+		<div className={classes.institution}>
+			<IconSvg class={classes.institution__icon} name="icon-graduation-cap" />
+			<div className={classes.institution__details}>
+				<div className={classes.institution__name}>
+					<span className={classes.institution__field}>ICT, </span>
+					Technical School of Electronics in Bydgoszcz
+				</div>
+				<div className={classes.institution__date}> 2016 - technician</div>
+			</div>
+		</div>,
 	];
 
 	return (
@@ -84,13 +118,14 @@ const SectionCV = () => {
 					id="section-eduaction"
 				>
 					<HeaderTertiary>education</HeaderTertiary>
-					<p className={classes.paragraph}>To be continued...</p>
+					<Listing items={educationList} type="single" />
 				</section>
 				<section
 					className={classes['section-experience']}
 					id="section-experience"
 				>
 					<HeaderTertiary>experience</HeaderTertiary>
+					<p className={classes.paragraph}>To be continued...</p>
 				</section>
 			</div>
 		</section>

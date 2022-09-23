@@ -53,4 +53,17 @@
 			text-align: center;
 		}
 	}
+
+	&--single {
+		flex: initial;
+		flex-direction: column;
+		align-items: flex-start;
+		font-size: 2rem;
+
+		list-style: none;
+
+		& li:not(:last-of-type) {
+			margin-bottom: 2rem;
+		}
+	}
 }
