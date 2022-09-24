@@ -181,5 +181,44 @@
 			"caption": "Trillo project"
 		}
 	],
-	"languages": ["English - Advanced", "Polish - Native", "Italiano - Beginner"]
+	"languages": ["English - Advanced", "Polish - Native", "Italiano - Beginner"],
+	"educationList": [
+		{
+			"boldName": "Economics, ",
+			"name": "UKW in Bydgoszcz",
+			"date": "in progress (2021 ~ now)"
+		},
+		{
+			"boldName": "ICT, ",
+			"name": "Politechnika Bydgoska",
+			"date": "2022 - engineer"
+		},
+		{
+			"boldName": "ICT, ",
+			"name": "Technical School of Electronics in Bydgoszcz",
+			"date": "2016 - technician"
+		}
+	],
+	"jobsList": [
+		{
+			"boldName": "Self Employed, ",
+			"name": "Mikołaj Nowak Development",
+			"date": "September 2022 ~ now (B2B ready)"
+		},
+		{
+			"boldName": "Internship, ",
+			"name": "Urząd Miasta Bydgoszczy, Wydział Windykacji",
+			"date": "June 2022"
+		},
+		{
+			"boldName": "Junior Software Engineer, ",
+			"name": "Atos PGS",
+			"date": "October 2020 ~ July 2021"
+		},
+		{
+			"boldName": "Intern Software Engineer, ",
+			"name": "Atos PGS",
+			"date": "July 2020 ~ September 2020"
+		}
+	]
 }

@@ -1,0 +1,51 @@
+@import '../../sass/main';
+
+.institution {
+	color: $color-black;
+	background-image: linear-gradient(
+		to right bottom,
+		rgba($color-gray-light-1, 0.7),
+		rgba($color-gray-light-3, 0.7)
+	);
+	border-radius: $border-radius-medium;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	padding: 2rem;
+	display: flex;
+
+	@include respond(phone) {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&:hover {
+		background-image: linear-gradient(
+			to right bottom,
+			rgba($color-gray-light-1, 0.7),
+			rgba($color-gray-light-2, 0.7)
+		);
+	}
+
+	&__icon {
+		width: 5rem;
+		height: 5rem;
+		flex: 0 0 auto;
+	}
+
+	&__details {
+		padding-left: 2rem;
+
+		@include respond(phone) {
+			padding-left: 0rem;
+			padding-top: 1rem;
+		}
+	}
+
+	&__name {
+		text-decoration: underline;
+	}
+
+	&__date {
+		text-align: left;
+		font-size: $default-font-size;
+	}
+}

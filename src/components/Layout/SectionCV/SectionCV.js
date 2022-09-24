@@ -1,12 +1,12 @@
 import React from 'react';
 import data from '../../../data/data.json';
+import InstitutionCard from '../../Institution/InstitutionCard';
 import Listing from '../../Listing/Listing';
 import Skillbar from '../../Skillbar/Skillbar';
 import BackgroundImage from '../../UI/BackgroundImage';
 import FlexContainer from '../../UI/FlexContainer';
 import HeaderSecondary from '../../UI/HeaderSecondary';
 import HeaderTertiary from '../../UI/HeaderTertiary';
-import IconSvg from '../../UI/IconSvg';
 import classes from './SectionCV.module.scss';
 
 const SectionCV = () => {
@@ -35,39 +35,6 @@ const SectionCV = () => {
 		>
 			TOEIC TEST SCORE
 		</a>,
-	];
-
-	const educationList = [
-		<div className={classes.institution}>
-			<IconSvg class={classes.institution__icon} name="icon-graduation-cap" />
-			<div className={classes.institution__details}>
-				<div className={classes.institution__name}>
-					<span className={classes.institution__field}>Economics, </span>
-					UKW in Bydgoszcz
-				</div>
-				<div className={classes.institution__date}>2021 ~ now</div>
-			</div>
-		</div>,
-		<div className={classes.institution}>
-			<IconSvg class={classes.institution__icon} name="icon-graduation-cap" />
-			<div className={classes.institution__details}>
-				<div className={classes.institution__name}>
-					<span className={classes.institution__field}>ICT, </span>
-					Politechnika Bydgoska
-				</div>
-				<div className={classes.institution__date}> 2022 - engineer</div>
-			</div>
-		</div>,
-		<div className={classes.institution}>
-			<IconSvg class={classes.institution__icon} name="icon-graduation-cap" />
-			<div className={classes.institution__details}>
-				<div className={classes.institution__name}>
-					<span className={classes.institution__field}>ICT, </span>
-					Technical School of Electronics in Bydgoszcz
-				</div>
-				<div className={classes.institution__date}> 2016 - technician</div>
-			</div>
-		</div>,
 	];
 
 	return (
@@ -118,14 +85,24 @@ const SectionCV = () => {
 					id="section-eduaction"
 				>
 					<HeaderTertiary>education</HeaderTertiary>
-					<Listing items={educationList} type="single" />
+					<Listing
+						items={data.educationList.map(item => (
+							<InstitutionCard icon="icon-graduation-cap" {...item} />
+						))}
+						type="single"
+					/>
 				</section>
 				<section
 					className={classes['section-experience']}
 					id="section-experience"
 				>
 					<HeaderTertiary>experience</HeaderTertiary>
-					<p className={classes.paragraph}>To be continued...</p>
+					<Listing
+						items={data.jobsList.map(item => (
+							<InstitutionCard icon="icon-briefcase" {...item} />
+						))}
+						type="single"
+					/>
 				</section>
 			</div>
 		</section>
