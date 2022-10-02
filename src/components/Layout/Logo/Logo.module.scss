@@ -1,0 +1,17 @@
+@import '../../../sass/main';
+
+.logo {
+	width: 22rem;
+	height: auto;
+	margin-bottom: 4rem;
+	animation: moveInUp 0.8s ease-out;
+
+	&--small {
+		width: 12rem;
+	}
+
+	&__img {
+		width: 100%;
+		object-fit: cover;
+	}
+}
