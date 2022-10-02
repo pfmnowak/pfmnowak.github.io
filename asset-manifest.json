@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d97bffa.css",
-    "main.js": "/static/js/main.8de0543d.js",
+    "main.css": "/static/css/main.7b753154.css",
+    "main.js": "/static/js/main.65e62128.js",
     "static/media/food-order-react.PNG": "/static/media/food-order-react.c057d9970e2e2f65ad94.PNG",
     "static/media/natours.PNG": "/static/media/natours.e89b8329d9392193c77b.PNG",
     "static/media/plant.jpg": "/static/media/plant.5f2a9a7b5cc11b58400c.jpg",
@@ -13,7 +13,9 @@
     "static/media/github-repos.PNG": "/static/media/github-repos.81c8e776a90b58039f93.PNG",
     "static/media/plant3.jpg": "/static/media/plant3.3377e6b5248f18b8142a.jpg",
     "static/media/white-desk.jpg": "/static/media/white-desk.b3e720583adfd084a0da.jpg",
+    "static/media/logo-color.png": "/static/media/logo-color.7a698208ed95876cdf84.png",
     "static/media/expenses-react.PNG": "/static/media/expenses-react.d7b7dddcdd9b5ad9d614.PNG",
+    "static/media/symbol-color.png": "/static/media/symbol-color.2dab44c417460fbb12f1.png",
     "static/media/me.PNG": "/static/media/me.deba7fa7c22209cb80a3.PNG",
     "static/media/sprite.svg": "/static/media/sprite.f1e70f6ad480915691381bb0bae8bc98.svg",
     "static/media/futurao-webfont.woff": "/static/media/futurao-webfont.7fd995ef1d0b88d2ed85.woff",
@@ -21,11 +23,11 @@
     "static/media/futurab-webfont.woff": "/static/media/futurab-webfont.a884c83163f8480f6e80.woff",
     "static/media/futurab-webfont.woff2": "/static/media/futurab-webfont.309796849e9a1aedf681.woff2",
     "index.html": "/index.html",
-    "main.8d97bffa.css.map": "/static/css/main.8d97bffa.css.map",
-    "main.8de0543d.js.map": "/static/js/main.8de0543d.js.map"
+    "main.7b753154.css.map": "/static/css/main.7b753154.css.map",
+    "main.65e62128.js.map": "/static/js/main.65e62128.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d97bffa.css",
-    "static/js/main.8de0543d.js"
+    "static/css/main.7b753154.css",
+    "static/js/main.65e62128.js"
   ]
 }
