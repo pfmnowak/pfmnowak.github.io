@@ -3,6 +3,7 @@ import data from '../../../data/data.json';
 import InstitutionCard from '../../Institution/InstitutionCard';
 import Listing from '../../Listing/Listing';
 import Skillbar from '../../Skillbar/Skillbar';
+import SkillbarLegend from '../../Skillbar/SkillbarLegend';
 import BackgroundImage from '../../UI/BackgroundImage';
 import FlexContainer from '../../UI/FlexContainer';
 import HeaderSecondary from '../../UI/HeaderSecondary';
@@ -50,6 +51,7 @@ const SectionCV = () => {
 					id="section-tech-skills"
 				>
 					<HeaderTertiary>tech skills</HeaderTertiary>
+					<SkillbarLegend />
 					<FlexContainer>
 						{data.techSkills.map(skill => (
 							<Skillbar

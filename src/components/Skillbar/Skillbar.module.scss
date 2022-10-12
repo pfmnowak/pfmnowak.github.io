@@ -18,12 +18,35 @@
 	}
 
 	&__container {
+		position: relative;
 		width: 100%;
 		background-color: $color-gray-dark-2;
 		border-radius: $border-radius-big;
+		height: 2rem;
+		display: flex;
+	}
+
+	&__segment {
+		flex: 1;
+		// color: $color-black;
+		// display: flex;
+		// justify-content: center;
+
+		// tap (hover) away to reset
+
+		&:not(:first-of-type) {
+			border-left: $line;
+			border-left: $line-dark;
+		}
 	}
 
 	&__progress {
+		// &__container::after {
+		// content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+
 		padding: 1rem 0;
 		background-image: linear-gradient(
 			to right,
@@ -32,6 +55,8 @@
 		);
 		background-color: $color-primary;
 		border-radius: $border-radius-big;
+
+		// width: 100%;
 
 		&--beginner {
 			width: 20%;
@@ -53,4 +78,10 @@
 			width: 100%;
 		}
 	}
+}
+
+.skillbar-legend {
+	display: flex;
+	padding: 5rem 0 10rem 0;
+	justify-content: center;
 }
