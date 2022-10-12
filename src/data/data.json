@@ -23,7 +23,7 @@
 			"level": "expert"
 		},
 		{
-			"name": "css",
+			"name": "Flexbox",
 			"level": "expert"
 		},
 		{
@@ -36,6 +36,22 @@
 		},
 		{
 			"name": "React",
+			"level": "proficient"
+		},
+		{
+			"name": "CSS Modules",
+			"level": "proficient"
+		},
+		{
+			"name": "React Hooks",
+			"level": "intermediate"
+		},
+		{
+			"name": "Redux",
+			"level": "intermediate"
+		},
+		{
+			"name": "React Router",
 			"level": "intermediate"
 		},
 		{
