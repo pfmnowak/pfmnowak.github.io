@@ -31,6 +31,10 @@
 			"level": "proficient"
 		},
 		{
+			"name": "RWD",
+			"level": "proficient"
+		},
+		{
 			"name": "js",
 			"level": "proficient"
 		},
@@ -39,15 +43,11 @@
 			"level": "proficient"
 		},
 		{
-			"name": "CSS Modules",
-			"level": "proficient"
-		},
-		{
-			"name": "React Hooks",
+			"name": "Redux",
 			"level": "intermediate"
 		},
 		{
-			"name": "Redux",
+			"name": "React Hooks",
 			"level": "intermediate"
 		},
 		{
@@ -55,11 +55,23 @@
 			"level": "intermediate"
 		},
 		{
+			"name": "CSS Modules",
+			"level": "proficient"
+		},
+		{
+			"name": "Rest API",
+			"level": "proficient"
+		},
+		{
 			"name": "Docker",
 			"level": "intermediate"
 		},
 		{
 			"name": "java",
+			"level": "proficient"
+		},
+		{
+			"name": "spring boot",
 			"level": "proficient"
 		},
 		{
@@ -74,6 +86,11 @@
 			"name": "git",
 			"level": "proficient"
 		},
+
+		{
+			"name": "ci/cd",
+			"level": "intermediate"
+		},
 		{
 			"name": "npm",
 			"level": "proficient"
@@ -87,7 +104,7 @@
 			"level": "beginner"
 		},
 		{
-			"name": "TDD",
+			"name": "unit testing",
 			"level": "beginner"
 		},
 		{

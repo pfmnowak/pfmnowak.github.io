@@ -4,7 +4,11 @@
 	display: flex;
 	align-items: center;
 	padding: 0 2rem;
-	width: 35rem;
+	width: 39rem;
+
+	@include respond(phone) {
+		padding: 0;
+	}
 
 	&:hover &__skill {
 		color: $color-black;
@@ -14,7 +18,8 @@
 		text-align: left;
 		text-transform: uppercase;
 		font-size: 2rem;
-		flex: 0 0 30%;
+		flex: 0 0 44%;
+		word-break: break-word;
 	}
 
 	&__container {
@@ -32,6 +37,7 @@
 		);
 		background-color: $color-primary;
 		border-radius: $border-radius-big;
+		width: 0;
 
 		&--beginner {
 			width: 25%;
