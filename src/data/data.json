@@ -23,6 +23,10 @@
 			"level": "expert"
 		},
 		{
+			"name": "BEM",
+			"level": "expert"
+		},
+		{
 			"name": "Flexbox",
 			"level": "expert"
 		},
@@ -31,7 +35,7 @@
 			"level": "proficient"
 		},
 		{
-			"name": "RWD",
+			"name": "React",
 			"level": "proficient"
 		},
 		{
@@ -39,7 +43,35 @@
 			"level": "proficient"
 		},
 		{
-			"name": "React",
+			"name": "CSS Modules",
+			"level": "proficient"
+		},
+		{
+			"name": "RWD",
+			"level": "proficient"
+		},
+		{
+			"name": "Rest API",
+			"level": "proficient"
+		},
+		{
+			"name": "mySQL",
+			"level": "proficient"
+		},
+		{
+			"name": "java",
+			"level": "proficient"
+		},
+		{
+			"name": "spring boot",
+			"level": "proficient"
+		},
+		{
+			"name": "git",
+			"level": "proficient"
+		},
+		{
+			"name": "npm",
 			"level": "proficient"
 		},
 		{
@@ -55,36 +87,8 @@
 			"level": "intermediate"
 		},
 		{
-			"name": "CSS Modules",
-			"level": "proficient"
-		},
-		{
-			"name": "Rest API",
-			"level": "proficient"
-		},
-		{
 			"name": "Docker",
 			"level": "intermediate"
-		},
-		{
-			"name": "java",
-			"level": "proficient"
-		},
-		{
-			"name": "spring boot",
-			"level": "proficient"
-		},
-		{
-			"name": "BEM",
-			"level": "expert"
-		},
-		{
-			"name": "mySQL",
-			"level": "proficient"
-		},
-		{
-			"name": "git",
-			"level": "proficient"
 		},
 
 		{
@@ -92,15 +96,11 @@
 			"level": "intermediate"
 		},
 		{
-			"name": "npm",
-			"level": "proficient"
+			"name": "maven",
+			"level": "intermediate"
 		},
 		{
 			"name": "Webpack",
-			"level": "beginner"
-		},
-		{
-			"name": "DDD",
 			"level": "beginner"
 		},
 		{
@@ -108,8 +108,8 @@
 			"level": "beginner"
 		},
 		{
-			"name": "maven",
-			"level": "intermediate"
+			"name": "DDD",
+			"level": "beginner"
 		},
 		{
 			"name": "kafka",
