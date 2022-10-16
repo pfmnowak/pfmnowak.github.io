@@ -61,6 +61,10 @@
 		font-size: 2rem;
 		list-style: none;
 
+		@include respond(phone) {
+			padding: 0 1rem;
+		}
+
 		& li {
 			text-align: left;
 		}
