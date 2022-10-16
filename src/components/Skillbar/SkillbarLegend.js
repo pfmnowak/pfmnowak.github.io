@@ -1,37 +1,44 @@
 import React, { useRef } from 'react';
 import classes from './Skillbar.module.scss';
 
-const SkillbarLegend = props => {
+const levels = [
+	{
+		label: 'beginner',
+		percentage: '25%',
+	},
+	{
+		label: 'intermediate',
+		percentage: '50%',
+	},
+	{
+		label: 'proficient',
+		percentage: '75%',
+	},
+	{
+		label: 'expert',
+		percentage: '100%',
+	},
+];
+
+const SkillbarLegend = () => {
 	const labelRef = useRef();
-	const classRef = useRef(null);
-	const labelDefault = 'Skill Lvl ';
+	const styleRef = useRef(null);
+	const tipRef = useRef(null);
 
-	const hoverHandler = (event, label) => {
-		// classRef.current.style['width'] = `${label}`;
-		setWidth(label);
+	const labelDefault = 'Skill Level';
+	const tipDefault = 'Tap/hover to animate';
+
+	const hoverHandler = (label, width) => {
 		setLabel(label);
-
-		// setName('beginner');
-		// nameRef.current.innerText = 'beginner';
-		// event.target.style.background = 'red';
+		setWidth(width);
+		setTip('Tap/hover out to reset');
 	};
 
-	const hoverOutAllHandler = event => {
-		// classRef.current.style['width'] = '0%';
-		setWidth('0%');
+	const hoverOutAllHandler = () => {
 		setLabel(labelDefault);
-
-		// classRef.current.className = `${classes.skillbar__progress}`;
-		// nameRef.current.innerText = 'hover to check...';
-		// event.target.style.background = 'transparent';
-		// event.target.style.background = 'blue';
+		setWidth('0%');
+		setTip(tipDefault);
 	};
-
-	// beginner,
-	// intermediate,
-	// proficient,
-	// expert,
-	// god
 
 	const setLabel = name => {
 		if (labelRef.current) {
@@ -39,9 +46,15 @@ const SkillbarLegend = props => {
 		}
 	};
 
+	const setTip = name => {
+		if (tipRef.current) {
+			tipRef.current.innerText = name;
+		}
+	};
+
 	const setWidth = width => {
-		if (classRef.current) {
-			classRef.current.style['width'] = `${width}`;
+		if (styleRef.current) {
+			styleRef.current.style['width'] = `${width}`;
 		}
 	};
 
@@ -55,45 +68,23 @@ const SkillbarLegend = props => {
 					className={classes.skillbar__container}
 					onMouseLeave={hoverOutAllHandler}
 				>
+					{levels.map(level => (
+						<div
+							className={classes.skillbar__segment}
+							onMouseOver={() => hoverHandler(level.label, level.percentage)}
+						></div>
+					))}
 					<div
-						className={classes.skillbar__segment}
-						// onMouseOver={() => hoverHandler('beginner')}
-						onMouseOver={event => hoverHandler(event, '20%')}
-						// onMouseOver={hoverHandler}
-					></div>
-					<div
-						className={classes.skillbar__segment}
-						// onMouseOver={() => hoverHandler('intermediate')}
-						onMouseOver={event => hoverHandler(event, '40%')}
-						// onMouseOver={hoverHandler}
-					></div>
-					<div
-						className={classes.skillbar__segment}
-						// onMouseOver={() => hoverHandler('proficient')}
-						onMouseOver={event => hoverHandler(event, '60%')}
-						// onMouseOver={hoverHandler}
-					></div>
-					<div
-						className={classes.skillbar__segment}
-						// onMouseOver={() => hoverHandler('expert')}
-						onMouseOver={event => hoverHandler(event, '80%')}
-						// onMouseOver={hoverHandler}
-					></div>
-					<div
-						className={classes.skillbar__segment}
-						// onMouseOver={() => hoverHandler('god')}
-						onMouseOver={event => hoverHandler(event, '100%')}
-						// onMouseOver={hoverHandler}
-					></div>
-
-					<div
-						ref={classRef}
+						ref={styleRef}
 						className={`${classes.skillbar__progress} 
                     
                     `}
 					></div>
 				</div>
 			</div>
+			<p className={classes['skillbar-legend__tip']} ref={tipRef}>
+				{tipDefault}
+			</p>
 		</div>
 	);
 };
