@@ -24,12 +24,27 @@
 	}
 
 	&__container {
+		position: relative;
 		width: 100%;
 		background-color: $color-gray-dark-2;
 		border-radius: $border-radius-big;
+		height: 2rem;
+		display: flex;
+	}
+
+	&__segment {
+		flex: 1;
+
+		&:not(:first-of-type) {
+			border-left: $line;
+			border-left: $line-dark;
+		}
 	}
 
 	&__progress {
+		position: absolute;
+		top: 0;
+		left: 0;
 		padding: 1rem 0;
 		background-image: linear-gradient(
 			to right,
@@ -55,5 +70,21 @@
 		&--expert {
 			width: 100%;
 		}
+	}
+}
+
+.skillbar-legend {
+	display: flex;
+	margin: 5rem 0 10rem 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+
+	&__tip {
+		font-size: 1.4rem;
+		font-weight: 700;
+		letter-spacing: 0.2rem;
+		margin-top: 0.7rem;
 	}
 }
