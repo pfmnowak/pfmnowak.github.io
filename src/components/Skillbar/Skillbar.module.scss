@@ -5,6 +5,7 @@
 	align-items: center;
 	padding: 0 2rem;
 	width: 39rem;
+	max-width: 100%;
 	margin-bottom: 0.4rem;
 
 	@include respond(phone) {
@@ -36,7 +37,6 @@
 		flex: 1;
 
 		&:not(:first-of-type) {
-			border-left: $line;
 			border-left: $line-dark;
 		}
 	}
@@ -78,8 +78,11 @@
 	margin: 5rem 0 10rem 0;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 	cursor: pointer;
+
+	@include respond(phone) {
+		margin: 2rem 2rem 7rem 2rem;
+	}
 
 	&__tip {
 		font-size: 1.4rem;

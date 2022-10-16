@@ -70,6 +70,7 @@ const SkillbarLegend = () => {
 				>
 					{levels.map(level => (
 						<div
+							key={level.label}
 							className={classes.skillbar__segment}
 							onMouseOver={() => hoverHandler(level.label, level.percentage)}
 						></div>
