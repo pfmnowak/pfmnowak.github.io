@@ -184,6 +184,12 @@
 			"caption": "Sudoku JS"
 		},
 		{
+			"link": "https://pfmnowak.github.io/github-repos-finder/",
+			"filename": "github-repos.PNG",
+			"tooltip": "GitHub Repos Finder",
+			"caption": "GitHub Repos Finder"
+		},
+		{
 			"link": "https://pfmnowak.github.io/food-order-react/",
 			"filename": "food-order-react.PNG",
 			"tooltip": "Food order React App",
@@ -200,12 +206,6 @@
 			"filename": "expenses-react.PNG",
 			"tooltip": "Expenses React App",
 			"caption": "Expenses React"
-		},
-		{
-			"link": "https://pfmnowak.github.io/github-repos-app/src/",
-			"filename": "github-repos.PNG",
-			"tooltip": "GitHub Repos App",
-			"caption": "GitHub Repos"
 		},
 		{
 			"link": "https://pfmnowak.github.io/trillo-sass-course/",
