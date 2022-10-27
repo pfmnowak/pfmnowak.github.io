@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2fdcd03b.css",
-    "main.js": "/static/js/main.21401353.js",
+    "main.js": "/static/js/main.7624ce52.js",
     "static/media/food-order-react.PNG": "/static/media/food-order-react.c057d9970e2e2f65ad94.PNG",
     "static/media/natours.PNG": "/static/media/natours.e89b8329d9392193c77b.PNG",
     "static/media/plant.jpg": "/static/media/plant.5f2a9a7b5cc11b58400c.jpg",
@@ -24,10 +24,10 @@
     "static/media/futurab-webfont.woff2": "/static/media/futurab-webfont.309796849e9a1aedf681.woff2",
     "index.html": "/index.html",
     "main.2fdcd03b.css.map": "/static/css/main.2fdcd03b.css.map",
-    "main.21401353.js.map": "/static/js/main.21401353.js.map"
+    "main.7624ce52.js.map": "/static/js/main.7624ce52.js.map"
   },
   "entrypoints": [
     "static/css/main.2fdcd03b.css",
-    "static/js/main.21401353.js"
+    "static/js/main.7624ce52.js"
   ]
 }
