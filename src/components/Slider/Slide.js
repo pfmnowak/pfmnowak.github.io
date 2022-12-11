@@ -3,7 +3,7 @@ import classes from './Slide.module.scss';
 
 const Slide = props => {
 	return (
-		<a href={props.link}>
+		<a href={props.link} title={props.tooltip} target="_blank" rel="noreferrer">
 			<figure className={classes.slide} style={props.style}>
 				<img
 					src={require(`../../img/${props.filename}`)}
