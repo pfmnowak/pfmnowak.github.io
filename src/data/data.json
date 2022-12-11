@@ -178,28 +178,22 @@
 	],
 	"slides": [
 		{
-			"link": "https://pfmnowak.github.io/sudoku-js/",
-			"filename": "sudoku.PNG",
-			"tooltip": "Sudoku game",
-			"caption": "Sudoku JS"
-		},
-		{
 			"link": "https://pfmnowak.github.io/github-repos-finder/",
-			"filename": "github-repos.PNG",
+			"filename": "github-repos-finder.PNG",
 			"tooltip": "GitHub Repos Finder",
 			"caption": "GitHub Repos Finder"
-		},
-		{
-			"link": "https://pfmnowak.github.io/food-order-react/",
-			"filename": "food-order-react.PNG",
-			"tooltip": "Food order React App",
-			"caption": "Food order React"
 		},
 		{
 			"link": "https://pfmnowak.github.io/natours-flexbox/",
 			"filename": "natours.PNG",
 			"tooltip": "Natours project",
 			"caption": "Natours project"
+		},
+		{
+			"link": "https://pfmnowak.github.io/food-order-react/",
+			"filename": "food-order-react.PNG",
+			"tooltip": "Food order React App",
+			"caption": "Food order React"
 		},
 		{
 			"link": "https://pfmnowak.github.io/expenses-react/",
@@ -212,6 +206,12 @@
 			"filename": "trillo.PNG",
 			"tooltip": "Trillo project",
 			"caption": "Trillo project"
+		},
+		{
+			"link": "https://pfmnowak.github.io/sudoku-js/",
+			"filename": "sudoku.PNG",
+			"tooltip": "Sudoku game",
+			"caption": "Sudoku JS"
 		}
 	],
 	"languages": ["English - Advanced", "Polish - Native", "Italiano - Beginner"],
