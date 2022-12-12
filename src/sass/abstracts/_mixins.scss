@@ -20,3 +20,9 @@
 		}
 	}
 }
+
+@mixin touch-only {
+	@media (pointer: coarse) {
+		@content;
+	}
+}
