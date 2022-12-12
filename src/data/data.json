@@ -43,6 +43,10 @@
 			"level": "proficient"
 		},
 		{
+			"name": "TypeScript",
+			"level": "proficient"
+		},
+		{
 			"name": "CSS Modules",
 			"level": "proficient"
 		},
@@ -67,11 +71,19 @@
 			"level": "proficient"
 		},
 		{
+			"name": "OOP",
+			"level": "proficient"
+		},
+		{
 			"name": "git",
 			"level": "proficient"
 		},
 		{
 			"name": "npm",
+			"level": "proficient"
+		},
+		{
+			"name": "SVG",
 			"level": "proficient"
 		},
 		{
@@ -84,6 +96,10 @@
 		},
 		{
 			"name": "React Router",
+			"level": "intermediate"
+		},
+		{
+			"name": "unit testing",
 			"level": "intermediate"
 		},
 		{
@@ -104,15 +120,15 @@
 			"level": "beginner"
 		},
 		{
-			"name": "unit testing",
-			"level": "beginner"
-		},
-		{
 			"name": "DDD",
 			"level": "beginner"
 		},
 		{
-			"name": "kafka",
+			"name": "Scrum",
+			"level": "beginner"
+		},
+		{
+			"name": "A11Y",
 			"level": "beginner"
 		}
 	],
