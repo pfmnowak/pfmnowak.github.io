@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.a3bb2ce7.css",
-    "main.js": "/static/js/main.e7495898.js",
+    "main.js": "/static/js/main.cc4533bc.js",
     "static/media/food-order-react.PNG": "/static/media/food-order-react.c057d9970e2e2f65ad94.PNG",
     "static/media/natours.PNG": "/static/media/natours.e89b8329d9392193c77b.PNG",
     "static/media/plant.jpg": "/static/media/plant.5f2a9a7b5cc11b58400c.jpg",
     "static/media/sudoku.PNG": "/static/media/sudoku.fef609094d7777e6aa0b.PNG",
     "static/media/TOEIC.jpg": "/static/media/TOEIC.970e764f1a3af4d2ffac.jpg",
+    "static/media/nexter.PNG": "/static/media/nexter.cbca81385ecab3260d2a.PNG",
     "static/media/trillo.PNG": "/static/media/trillo.72a32bfffa67a6a15315.PNG",
     "static/media/plant4.jpg": "/static/media/plant4.be9f8f33935848322e07.jpg",
     "static/media/plant2.jpg": "/static/media/plant2.c3bdf6366f50f26bc779.jpg",
@@ -24,10 +25,10 @@
     "static/media/futurab-webfont.woff2": "/static/media/futurab-webfont.309796849e9a1aedf681.woff2",
     "index.html": "/index.html",
     "main.a3bb2ce7.css.map": "/static/css/main.a3bb2ce7.css.map",
-    "main.e7495898.js.map": "/static/js/main.e7495898.js.map"
+    "main.cc4533bc.js.map": "/static/js/main.cc4533bc.js.map"
   },
   "entrypoints": [
     "static/css/main.a3bb2ce7.css",
-    "static/js/main.e7495898.js"
+    "static/js/main.cc4533bc.js"
   ]
 }
