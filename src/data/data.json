@@ -200,6 +200,12 @@
 			"caption": "GitHub Repos Finder"
 		},
 		{
+			"link": "https://pfmnowak.github.io/nexter-css-grid/",
+			"filename": "nexter.PNG",
+			"tooltip": "Nexter CSS Grid project",
+			"caption": "Nexter CSS Grid"
+		},
+		{
 			"link": "https://pfmnowak.github.io/natours-flexbox/",
 			"filename": "natours.PNG",
 			"tooltip": "Natours project",
