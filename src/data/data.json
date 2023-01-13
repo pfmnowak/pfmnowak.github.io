@@ -200,6 +200,12 @@
 			"caption": "GitHub Repos Finder"
 		},
 		{
+			"link": "https://pfmnowak.github.io/employee-management-react/",
+			"filename": "employee-management.PNG",
+			"tooltip": "Employee Management App",
+			"caption": "Employee Management"
+		},
+		{
 			"link": "https://pfmnowak.github.io/nexter-css-grid/",
 			"filename": "nexter.PNG",
 			"tooltip": "Nexter CSS Grid project",
