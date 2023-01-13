@@ -1,6 +1,5 @@
 @import '../../sass/main';
 
-/* SLIDER */
 .slider {
 	position: relative;
 	max-width: 150rem;
@@ -43,9 +42,7 @@
 
 	&__dot {
 		border: none;
-		background-color: #b9b9b9;
-		background-color: $color-primary-dark;
-		opacity: 0.7;
+		background-color: $color-white;
 		height: 1rem;
 		width: 1rem;
 		border-radius: 50%;
@@ -53,16 +50,12 @@
 		cursor: pointer;
 		transition: all 0.4s;
 
-		/* Only necessary when overlying images */
-		/* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
-
 		&:last-child {
 			margin: 0;
 		}
 
 		&--active {
 			background-color: $color-primary;
-			opacity: 1;
 		}
 	}
 }
