@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3bb2ce7.css",
-    "main.js": "/static/js/main.cc4533bc.js",
+    "main.css": "/static/css/main.ff70ee5f.css",
+    "main.js": "/static/js/main.5c35d2e6.js",
     "static/media/food-order-react.PNG": "/static/media/food-order-react.c057d9970e2e2f65ad94.PNG",
     "static/media/natours.PNG": "/static/media/natours.e89b8329d9392193c77b.PNG",
     "static/media/plant.jpg": "/static/media/plant.5f2a9a7b5cc11b58400c.jpg",
@@ -12,6 +12,7 @@
     "static/media/plant4.jpg": "/static/media/plant4.be9f8f33935848322e07.jpg",
     "static/media/plant2.jpg": "/static/media/plant2.c3bdf6366f50f26bc779.jpg",
     "static/media/github-repos-finder.PNG": "/static/media/github-repos-finder.abf9bdf443bab7de160f.PNG",
+    "static/media/employee-management.PNG": "/static/media/employee-management.65738323039089da0a3d.PNG",
     "static/media/plant3.jpg": "/static/media/plant3.3377e6b5248f18b8142a.jpg",
     "static/media/white-desk.jpg": "/static/media/white-desk.b3e720583adfd084a0da.jpg",
     "static/media/logo-color.png": "/static/media/logo-color.7a698208ed95876cdf84.png",
@@ -24,11 +25,11 @@
     "static/media/futurab-webfont.woff": "/static/media/futurab-webfont.a884c83163f8480f6e80.woff",
     "static/media/futurab-webfont.woff2": "/static/media/futurab-webfont.309796849e9a1aedf681.woff2",
     "index.html": "/index.html",
-    "main.a3bb2ce7.css.map": "/static/css/main.a3bb2ce7.css.map",
-    "main.cc4533bc.js.map": "/static/js/main.cc4533bc.js.map"
+    "main.ff70ee5f.css.map": "/static/css/main.ff70ee5f.css.map",
+    "main.5c35d2e6.js.map": "/static/js/main.5c35d2e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3bb2ce7.css",
-    "static/js/main.cc4533bc.js"
+    "static/css/main.ff70ee5f.css",
+    "static/js/main.5c35d2e6.js"
   ]
 }
