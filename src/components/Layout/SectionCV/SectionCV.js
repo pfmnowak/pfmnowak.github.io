@@ -14,27 +14,39 @@ const SectionCV = () => {
 	const certLinks = [
 		<a
 			className={classes['inline-link']}
+			href="https://www.udemy.com/certificate/UC-a630d57c-5b67-4e69-8abc-c1e811f5c00b/"
+			title="Advanced CSS and Sass: Flexbox, Grid, Animations and More!"
+			target="_blank"
+			rel="noreferrer"
+		>
+			Advanced CSS Course certificate (Udemy)
+		</a>,
+		<a
+			className={classes['inline-link']}
 			href="https://www.udemy.com/certificate/UC-8e915ef1-d8e1-4b42-bdcb-bb11c58155ae/"
 			title="React - The Complete Guide (incl Hooks, React Router, Redux)"
 			target="_blank"
+			rel="noreferrer"
 		>
-			React Course certificate
+			React Course certificate (Udemy)
 		</a>,
 		<a
 			className={classes['inline-link']}
 			href="https://www.udemy.com/certificate/UC-179b9315-d343-48c7-9352-a39d2aede9d4/"
 			title="The Complete JavaScript Course 2021: From Zero to Expert!"
 			target="_blank"
+			rel="noreferrer"
 		>
-			JS Course certificate
+			JS Course certificate (Udemy)
 		</a>,
 		<a
 			className={classes['inline-link']}
 			href={require('../../../img/TOEIC.jpg')}
 			title="TOEIC TEST certificate"
 			target="_blank"
+			rel="noreferrer"
 		>
-			TOEIC TEST SCORE
+			TOEIC English test score (925/990)
 		</a>,
 	];
 

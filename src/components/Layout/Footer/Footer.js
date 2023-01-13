@@ -11,7 +11,7 @@ const Footer = () => {
 			<Logo />
 			<SocialLinks />
 			<div className={classes.footer__info}>
-				<p>If you have any questions, please hesitate to contact me.</p>
+				<p>If you have any questions, please don't hesitate to contact me :)</p>
 				<br />
 				<p>&copy; 2022 | By Mikołaj Nowak</p>
 			</div>
