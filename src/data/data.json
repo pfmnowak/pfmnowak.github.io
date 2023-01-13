@@ -87,7 +87,7 @@
 			"level": "proficient"
 		},
 		{
-			"name": "Redux",
+			"name": "CSS Grid",
 			"level": "intermediate"
 		},
 		{
@@ -96,6 +96,14 @@
 		},
 		{
 			"name": "React Router",
+			"level": "intermediate"
+		},
+		{
+			"name": "Redux",
+			"level": "intermediate"
+		},
+		{
+			"name": "Eslint",
 			"level": "intermediate"
 		},
 		{
