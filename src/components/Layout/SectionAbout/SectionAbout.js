@@ -7,7 +7,7 @@ const SectionAbout = () => {
 	return (
 		<section className={classes['section-about']} id="section-about">
 			<BackgroundImage
-				link={require('../../../img/plant4.jpg')}
+				link={require('../../../img/plant-background.jpg')}
 				alt="Section background"
 			/>
 			<div className={classes['section-about__content']}>
@@ -17,7 +17,7 @@ const SectionAbout = () => {
 						<figure>
 							<img
 								src={require(`../../../img/me.PNG`)}
-								alt="Profile photo"
+								alt="Profile pic"
 								className={classes['profile-picture__img']}
 							/>
 							<figcaption>Placeholder for a photo of me 🙂</figcaption>

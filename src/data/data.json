@@ -203,49 +203,49 @@
 	"slides": [
 		{
 			"link": "https://pfmnowak.github.io/github-repos-finder/",
-			"filename": "github-repos-finder.PNG",
+			"filename": "github-repos-finder.jpg",
 			"tooltip": "GitHub Repos Finder",
 			"caption": "GitHub Repos Finder"
 		},
 		{
+			"link": "https://pfmnowak.github.io/pantone-colors-react/",
+			"filename": "pantone-colors.jpg",
+			"tooltip": "Pantone Color Of The Year",
+			"caption": "Pantone Color Of The Year"
+		},
+		{
 			"link": "https://pfmnowak.github.io/employee-management-react/",
-			"filename": "employee-management.PNG",
+			"filename": "employee-management.jpg",
 			"tooltip": "Employee Management App",
 			"caption": "Employee Management"
 		},
 		{
 			"link": "https://pfmnowak.github.io/nexter-css-grid/",
-			"filename": "nexter.PNG",
+			"filename": "nexter.jpg",
 			"tooltip": "Nexter CSS Grid project",
 			"caption": "Nexter CSS Grid"
 		},
 		{
 			"link": "https://pfmnowak.github.io/natours-flexbox/",
-			"filename": "natours.PNG",
+			"filename": "natours.jpg",
 			"tooltip": "Natours project",
 			"caption": "Natours project"
 		},
 		{
-			"link": "https://pfmnowak.github.io/food-order-react/",
-			"filename": "food-order-react.PNG",
-			"tooltip": "Food order React App",
-			"caption": "Food order React"
-		},
-		{
 			"link": "https://pfmnowak.github.io/expenses-react/",
-			"filename": "expenses-react.PNG",
+			"filename": "expenses-react.jpg",
 			"tooltip": "Expenses React App",
 			"caption": "Expenses React"
 		},
 		{
 			"link": "https://pfmnowak.github.io/trillo-sass-course/",
-			"filename": "trillo.PNG",
+			"filename": "trillo.jpg",
 			"tooltip": "Trillo project",
 			"caption": "Trillo project"
 		},
 		{
 			"link": "https://pfmnowak.github.io/sudoku-js/",
-			"filename": "sudoku.PNG",
+			"filename": "sudoku.jpg",
 			"tooltip": "Sudoku game",
 			"caption": "Sudoku JS"
 		}
