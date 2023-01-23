@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff70ee5f.css",
-    "main.js": "/static/js/main.5c35d2e6.js",
-    "static/media/food-order-react.PNG": "/static/media/food-order-react.c057d9970e2e2f65ad94.PNG",
-    "static/media/natours.PNG": "/static/media/natours.e89b8329d9392193c77b.PNG",
-    "static/media/plant.jpg": "/static/media/plant.5f2a9a7b5cc11b58400c.jpg",
-    "static/media/sudoku.PNG": "/static/media/sudoku.fef609094d7777e6aa0b.PNG",
-    "static/media/TOEIC.jpg": "/static/media/TOEIC.970e764f1a3af4d2ffac.jpg",
-    "static/media/nexter.PNG": "/static/media/nexter.cbca81385ecab3260d2a.PNG",
-    "static/media/trillo.PNG": "/static/media/trillo.72a32bfffa67a6a15315.PNG",
-    "static/media/plant4.jpg": "/static/media/plant4.be9f8f33935848322e07.jpg",
-    "static/media/plant2.jpg": "/static/media/plant2.c3bdf6366f50f26bc779.jpg",
-    "static/media/github-repos-finder.PNG": "/static/media/github-repos-finder.abf9bdf443bab7de160f.PNG",
-    "static/media/employee-management.PNG": "/static/media/employee-management.65738323039089da0a3d.PNG",
-    "static/media/plant3.jpg": "/static/media/plant3.3377e6b5248f18b8142a.jpg",
-    "static/media/white-desk.jpg": "/static/media/white-desk.b3e720583adfd084a0da.jpg",
+    "main.css": "/static/css/main.5b257677.css",
+    "main.js": "/static/js/main.f3e0eaa9.js",
+    "static/media/github-repos-finder.jpg": "/static/media/github-repos-finder.f4bc3f54276ede760ac5.jpg",
+    "static/media/pantone-colors.jpg": "/static/media/pantone-colors.816c769036c25551c1ab.jpg",
+    "static/media/sudoku.jpg": "/static/media/sudoku.c082e961f11d1ec20317.jpg",
+    "static/media/plant-background.jpg": "/static/media/plant-background.266f5146970c2d7984b8.jpg",
     "static/media/logo-color.png": "/static/media/logo-color.7a698208ed95876cdf84.png",
-    "static/media/expenses-react.PNG": "/static/media/expenses-react.d7b7dddcdd9b5ad9d614.PNG",
+    "static/media/TOEIC.jpg": "/static/media/TOEIC.92fc056008ca5b4895d4.jpg",
+    "static/media/employee-management.jpg": "/static/media/employee-management.c323def52554b2c77230.jpg",
     "static/media/symbol-color.png": "/static/media/symbol-color.2dab44c417460fbb12f1.png",
+    "static/media/trillo.jpg": "/static/media/trillo.026262c4ee88446f855f.jpg",
+    "static/media/nexter.jpg": "/static/media/nexter.eaf74527ef15c8d10fb1.jpg",
+    "static/media/expenses-react.jpg": "/static/media/expenses-react.854078ad95b419cee89c.jpg",
+    "static/media/natours.jpg": "/static/media/natours.000b04cba720626e1274.jpg",
+    "static/media/white-desk.jpg": "/static/media/white-desk.6be00433cd2907ffb5a3.jpg",
     "static/media/me.PNG": "/static/media/me.deba7fa7c22209cb80a3.PNG",
     "static/media/sprite.svg": "/static/media/sprite.f1e70f6ad480915691381bb0bae8bc98.svg",
     "static/media/futurao-webfont.woff": "/static/media/futurao-webfont.7fd995ef1d0b88d2ed85.woff",
@@ -25,11 +22,11 @@
     "static/media/futurab-webfont.woff": "/static/media/futurab-webfont.a884c83163f8480f6e80.woff",
     "static/media/futurab-webfont.woff2": "/static/media/futurab-webfont.309796849e9a1aedf681.woff2",
     "index.html": "/index.html",
-    "main.ff70ee5f.css.map": "/static/css/main.ff70ee5f.css.map",
-    "main.5c35d2e6.js.map": "/static/js/main.5c35d2e6.js.map"
+    "main.5b257677.css.map": "/static/css/main.5b257677.css.map",
+    "main.f3e0eaa9.js.map": "/static/js/main.f3e0eaa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff70ee5f.css",
-    "static/js/main.5c35d2e6.js"
+    "static/css/main.5b257677.css",
+    "static/js/main.f3e0eaa9.js"
   ]
 }
