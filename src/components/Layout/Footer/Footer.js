@@ -13,7 +13,7 @@ const Footer = () => {
 			<div className={classes.footer__info}>
 				<p>If you have any questions, please don't hesitate to contact me :)</p>
 				<br />
-				<p>&copy; 2022 | By Mikołaj Nowak</p>
+				<p>&copy; 2023 | By Mikołaj Nowak</p>
 			</div>
 		</footer>
 	);
