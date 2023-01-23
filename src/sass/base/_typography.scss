@@ -80,34 +80,3 @@ body {
 	background-clip: text;
 	color: transparent;
 }
-
-.inline-link {
-	text-decoration: none;
-	color: inherit;
-	position: relative;
-	padding-bottom: 1rem;
-
-	&:hover {
-		color: $color-primary-light;
-	}
-
-	&:after {
-		content: '';
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		width: 0%;
-		height: 100%;
-		border-bottom: 2px solid $color-primary-light;
-		transition: width 0.3s ease;
-
-		@include touch-only() {
-			width: 100%;
-		}
-	}
-
-	&:hover:after {
-		left: 0;
-		width: 100%;
-	}
-}
