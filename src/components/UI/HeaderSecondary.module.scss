@@ -28,7 +28,7 @@
 		font-size: 2.5rem;
 	}
 
-	&:hover {
+	@include hover-supported() {
 		transform: scale(1.07);
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
 	}

@@ -21,6 +21,14 @@
 	}
 }
 
+@mixin hover-supported {
+	@media not all and (pointer: coarse) {
+		&:hover {
+			@content;
+		}
+	}
+}
+
 @mixin touch-only {
 	@media (pointer: coarse) {
 		@content;

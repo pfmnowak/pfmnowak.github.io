@@ -23,14 +23,14 @@
 	transition: transform 0.3s ease-out, visibility 0.7s, opacity 0.7s,
 		margin-bottom 0.7s;
 
-	&:hover {
+	@include hover-supported() {
 		transform: translateY(-5px);
 		background-color: $color-black;
 		box-shadow: rgba(0, 0, 0, 0.8) 0 2rem 2rem -1rem;
-	}
 
-	&:hover &__arrow {
-		fill: $color-primary-light;
+		.scroll-top-btn__arrow {
+			fill: $color-primary-light;
+		}
 	}
 
 	&:active {
@@ -40,5 +40,7 @@
 
 	&__arrow {
 		fill: $color-black;
+		width: 100%;
+		height: 100%;
 	}
 }
