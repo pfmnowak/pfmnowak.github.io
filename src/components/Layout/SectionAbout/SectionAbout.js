@@ -26,10 +26,10 @@ const SectionAbout = () => {
 					<div className={classes['profile__description']}>
 						<p className={`${classes.paragraph} ${classes['colorful-text']}`}>
 							Hello there ;) I'm a Junior Frontend Developer, an engineer and an
-							economics student based in Bydgoszcz, Poland. Currently looking
-							for a job (B2B contract). In my spare time i like reading books,
-							watching movies and staring at maps for hours. I'm also a great
-							enthusiast of Minimalism, Urbanism, Politics & Star Wars memes.
+							economics student based in Bydgoszcz, Poland. Currently working on
+							a B2B contract. In my spare time i like reading books, watching
+							movies and staring at maps for hours. I'm also a great enthusiast
+							of Minimalism, Urbanism, Politics & Star Wars memes.
 							<br />
 							<br />
 							I'm an open-minded person, focused on self-improvement and

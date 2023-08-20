@@ -170,7 +170,7 @@
 			"active": true
 		},
 		{
-			"link": "https://www.linkedin.com/in/mikołaj-nowak-621481230",
+			"link": "https://www.linkedin.com/in/mikolaj-nowak-pfmnowak/",
 			"title": "LinkedIn profile",
 			"icon": "icon-linkedin2",
 			"active": true
@@ -182,10 +182,10 @@
 			"active": true
 		},
 		{
-			"link": "https://www.instagram.com/",
+			"link": "https://www.instagram.com/pfmnowak",
 			"title": "TBA",
 			"icon": "icon-instagram",
-			"active": false
+			"active": true
 		},
 		{
 			"link": "https://pl.pinterest.com/pfmnowak/",
@@ -272,7 +272,7 @@
 		{
 			"boldName": "Self Employed, ",
 			"name": "Mikołaj Nowak Development",
-			"date": "September 2022 ~ now (B2B ready)"
+			"date": "September 2022 ~ now (B2B contract)"
 		},
 		{
 			"boldName": "Internship, ",
