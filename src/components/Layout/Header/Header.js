@@ -19,7 +19,7 @@ const Header = () => {
 				<h1
 					className={`${classes['heading-primary']} ${classes['heading-primary--sub']}`}
 				>
-					junior frontend developer
+					a frontend developer
 				</h1>
 			</div>
 			<div className={classes.header__neon}></div>

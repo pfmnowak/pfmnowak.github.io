@@ -31,7 +31,7 @@
 			"level": "expert"
 		},
 		{
-			"name": "scss",
+			"name": "scss/css",
 			"level": "proficient"
 		},
 		{
@@ -63,14 +63,6 @@
 			"level": "proficient"
 		},
 		{
-			"name": "java",
-			"level": "proficient"
-		},
-		{
-			"name": "spring boot",
-			"level": "proficient"
-		},
-		{
 			"name": "OOP",
 			"level": "proficient"
 		},
@@ -83,19 +75,15 @@
 			"level": "proficient"
 		},
 		{
-			"name": "SVG",
-			"level": "proficient"
+			"name": "Vue.js",
+			"level": "intermediate"
+		},
+		{
+			"name": "Vuex",
+			"level": "intermediate"
 		},
 		{
 			"name": "CSS Grid",
-			"level": "intermediate"
-		},
-		{
-			"name": "React Hooks",
-			"level": "intermediate"
-		},
-		{
-			"name": "React Router",
 			"level": "intermediate"
 		},
 		{
@@ -120,19 +108,7 @@
 			"level": "intermediate"
 		},
 		{
-			"name": "maven",
-			"level": "intermediate"
-		},
-		{
 			"name": "Webpack",
-			"level": "beginner"
-		},
-		{
-			"name": "DDD",
-			"level": "beginner"
-		},
-		{
-			"name": "Scrum",
 			"level": "beginner"
 		},
 		{
@@ -145,13 +121,11 @@
 		"Building reponsive apps & pages",
 		"Willingness to learn new skills & technologies",
 		"Ability to work in a group",
-		"Working under time pressure",
+		"Ability to work under time pressure",
 		"Good working knowledge of technology",
 		"Open mindset",
 		"Experience with business",
-		"Working in an international environment",
-		"Maintaining clean workspace",
-		"Ergonomic and safe work",
+		"Experience in working in an international environment",
 		"Good stress management",
 		"Ability to self-organize work",
 		"Work life balance",
@@ -250,12 +224,16 @@
 			"caption": "Sudoku JS"
 		}
 	],
-	"languages": ["English - Advanced", "Polish - Native", "Italiano - Beginner"],
+	"languages": [
+		"English - Advanced (B2/C1)",
+		"Polish - Native",
+		"Spanish - Beginner (A1)"
+	],
 	"educationList": [
 		{
 			"boldName": "Economics, ",
 			"name": "UKW in Bydgoszcz",
-			"date": "in progress (2021 ~ now)"
+			"date": "2024 - bachelor"
 		},
 		{
 			"boldName": "ICT, ",
@@ -270,14 +248,19 @@
 	],
 	"jobsList": [
 		{
+			"boldName": "Frontend Developer, ",
+			"name": "SoftBlue SA",
+			"date": "May 2023 ~ now"
+		},
+		{
+			"boldName": "Frontend Developer, ",
+			"name": "INTechHouse",
+			"date": "May 2023 ~ now"
+		},
+		{
 			"boldName": "Self Employed, ",
 			"name": "Mikołaj Nowak Development",
 			"date": "September 2022 ~ now (B2B contract)"
-		},
-		{
-			"boldName": "Internship, ",
-			"name": "Urząd Miasta Bydgoszczy, Wydział Windykacji",
-			"date": "June 2022"
 		},
 		{
 			"boldName": "Junior Software Engineer, ",

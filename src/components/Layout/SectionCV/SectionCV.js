@@ -14,6 +14,18 @@ import classes from './SectionCV.module.scss';
 const SectionCV = () => {
 	const certLinks = [
 		<InlineLink
+			link="https://www.udemy.com/certificate/UC-6d973aa2-906a-4f15-95b7-1116a4b923c5/"
+			title="Vue - The Complete Guide (incl. Router & Composition API)"
+		>
+			Vue.js Course certificate (Udemy)
+		</InlineLink>,
+		<InlineLink
+			link="https://www.udemy.com/certificate/UC-42773d94-6317-47e8-ad32-ed70fbc3f69d/"
+			title="React Testing Library and Jest: The Complete Guide"
+		>
+			React Testing Library & Jest Course certificate (Udemy)
+		</InlineLink>,
+		<InlineLink
 			link="https://www.udemy.com/certificate/UC-a630d57c-5b67-4e69-8abc-c1e811f5c00b/"
 			title="Advanced CSS and Sass: Flexbox, Grid, Animations and More!"
 		>
