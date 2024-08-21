@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5b257677.css",
-    "main.js": "/static/js/main.8b263d54.js",
+    "main.js": "/static/js/main.20cf890c.js",
     "static/media/github-repos-finder.jpg": "/static/media/github-repos-finder.f4bc3f54276ede760ac5.jpg",
     "static/media/pantone-colors.jpg": "/static/media/pantone-colors.816c769036c25551c1ab.jpg",
     "static/media/sudoku.jpg": "/static/media/sudoku.c082e961f11d1ec20317.jpg",
@@ -23,10 +23,10 @@
     "static/media/futurab-webfont.woff2": "/static/media/futurab-webfont.309796849e9a1aedf681.woff2",
     "index.html": "/index.html",
     "main.5b257677.css.map": "/static/css/main.5b257677.css.map",
-    "main.8b263d54.js.map": "/static/js/main.8b263d54.js.map"
+    "main.20cf890c.js.map": "/static/js/main.20cf890c.js.map"
   },
   "entrypoints": [
     "static/css/main.5b257677.css",
-    "static/js/main.8b263d54.js"
+    "static/js/main.20cf890c.js"
   ]
 }
