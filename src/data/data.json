@@ -157,7 +157,7 @@
 		},
 		{
 			"link": "https://www.instagram.com/pfmnowak",
-			"title": "TBA",
+			"title": "Instagram profile",
 			"icon": "icon-instagram",
 			"active": true
 		},
@@ -239,33 +239,23 @@
 			"boldName": "ICT, ",
 			"name": "Politechnika Bydgoska",
 			"date": "2022 - engineer"
-		},
-		{
-			"boldName": "ICT, ",
-			"name": "Technical School of Electronics in Bydgoszcz",
-			"date": "2016 - technician"
 		}
 	],
 	"jobsList": [
 		{
 			"boldName": "Frontend Developer, ",
-			"name": "SoftBlue SA",
-			"date": "May 2023 ~ now"
-		},
-		{
-			"boldName": "Frontend Developer, ",
-			"name": "INTechHouse",
+			"name": "SoftBlue SA & INTechHouse",
 			"date": "May 2023 ~ now"
 		},
 		{
 			"boldName": "Self Employed, ",
 			"name": "Mikołaj Nowak Development",
-			"date": "September 2022 ~ now (B2B contract)"
+			"date": "August 2022 ~ now (B2B contract)"
 		},
 		{
 			"boldName": "Junior Software Engineer, ",
 			"name": "Atos PGS",
-			"date": "October 2020 ~ July 2021"
+			"date": "October 2020 ~ July 2022"
 		},
 		{
 			"boldName": "Intern Software Engineer, ",
